@@ -16,12 +16,7 @@ export default function Mailer() {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send(
-      "service_zjwr8cc",
-      "template_e2le64q",
-      toSend,
-      "user_PuGLVauG9rvuPYE7IrnYg"
-    )
+    send("service_bcvxv0q", "template_eoi0tvi", toSend, "uE01o4EmZA0d_gpv4")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
         Swal.fire(

@@ -89,25 +89,25 @@ function About() {
               Bringing Sleep to <span className="inline-block">New Mexico</span>
             </h3>
             <p className="text-paragraph text-left mt-[20px] text-dark-grey">
-              At Sleep Well New Mexico, our ambitious dream to bring nights of
-              full sleep back to those with sleep apnea, started with noticing
-              how many people were still not getting good sleep despite having
-              access to a CPAP.
+              At Sleep Well New Mexico, we focus on incredible customer service
+              and incredible results. With our amazing team, and our use of the
+              newest technology, we'll have you getting the best sleep of your
+              life in no time.
             </p>
-            <p className="text-paragraph text-left mt-[20px] text-dark-grey">
+            {/* <p className="text-paragraph text-left mt-[20px] text-dark-grey">
               We came to realize that many of those suffering from mild to
               moderate sleep apnea didn't need a CPAP, so we began creating
               custom fit oral appliances in order to make full nights of sleep
               more convenient and more easily accessible to those unable to get
               consistent benefit from CPAP therapy.
-            </p>
+            </p> */}
           </div>
           {/* image */}
           <div className="md:max-w-[500px] w-full rounded-xl overflow-hidden h-full md:max-h-[500px]">
             <img
               className="object-fill"
-              src="./assets/lilian.jpg"
-              alt="Doctor Lilian Jaime"
+              src="./assets/sleeping-img.png"
+              alt="woman sleeping peacefully"
             ></img>
           </div>
         </div>
@@ -122,23 +122,24 @@ function About() {
               Meet the Doctor
             </h3>
             <p className="text-paragraph text-left mt-[20px] text-dark-grey">
-              Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus
-              id scelerisque est ultricies ultricies. Duis est sit sed leo nisl,
-              blandit elit sagittis. Quisque tristique consequat quam sed. Nisl
-              at scelerisque amet nulla purus habitasse.
+              Dr. Lilian Jaime is an ambitious and efficient dentist. Her
+              patients find her very gentle and friendly when interacting with
+              her, and she enjoys listening to and understanding her patients
+              needs.
             </p>
             <p className="text-paragraph text-left mt-[20px] text-dark-grey">
-              Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas
-              condimentum mi massa. In tincidunt pharetra consectetur sed duis
-              facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit
-              dictum eget nibh tortor commodo cursus.
+              Dr. Jaime also regulary attends some of the most advanced
+              post-doctoral study programs in the country, ensuring that she is
+              up-to-date and knowledgeable about the newest advancements in
+              sleep services. This commitment to continuing education enables
+              her to provide the highest quality care possible to her patients.
             </p>
           </div>
           {/* image */}
           <div className="md:max-w-[500px] w-full rounded-xl overflow-hidden h-full md:max-h-[500px]">
             <img
               className="object-fill"
-              src="./assets/lilian.jpg"
+              src="./assets/doctor-img.png"
               alt="Doctor Lilian Jaime"
             ></img>
           </div>
@@ -153,14 +154,14 @@ function About() {
             <h3 className="title-text font-bold text-center text-dark">
               Located in Albuquerque
             </h3>
-            <p className="text-paragraph text-dark-grey text-center ">
+            {/* <p className="text-paragraph text-dark-grey text-center ">
               Everything you need to convert, engage, and retain more users.
-            </p>
+            </p> */}
           </div>
           {/* map section */}
           <div className="aspect-video overflow-hidden rounded-xl max-w-[1280px] w-full max-h-[400px] border border-light-grey">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.9733066344115!2d-106.52647698508976!3d35.13233966748643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87189fe597202123%3A0xf565675ad3c25c9!2sSunshine%20Dental!5e0!3m2!1sen!2sus!4v1644440428184!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.972396464595!2d-106.52648568475612!3d35.1323623803259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6edccfc71fe93d3!2sSleep%20Well%20New%20Mexico!5e0!3m2!1sen!2sus!4v1646083550088!5m2!1sen!2sus"
               width="1280"
               height="400"
               style={{ border: 0 }}
@@ -205,7 +206,8 @@ function About() {
                     }
                     className="text-paragraph-sm text-primary-blue text-center cursor-pointer"
                   >
-                    10411 Lagrima De Oro Rd Albuquerque, NM 87111
+                    10411 Lagrima De Oro Rd{" "}
+                    <span className="inline-block">Albuquerque, NM 87111</span>
                   </p>
                 </div>
               </li>

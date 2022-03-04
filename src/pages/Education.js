@@ -9,6 +9,15 @@ export default function Education() {
     window.scrollTo(0, 0);
   });
 
+  const playVideo = () => {
+    console.log("you clicked it");
+    var videoPoster = document.getElementById("poster");
+    videoPoster.classList.add("hidden");
+    var video = document.getElementById("video");
+    video.classList.remove("hidden");
+    // video.playVideo();
+  };
+
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Title */}
@@ -218,7 +227,7 @@ export default function Education() {
           <div className="overflow-hidden rounded-xl max-w-[500px] w-full">
             <img
               className="object-fill"
-              src="./assets/treatment-options.svg"
+              src="./assets/treatment-options.png"
             ></img>
           </div>
           {/* text section */}
@@ -227,14 +236,16 @@ export default function Education() {
               Treatment Options
             </h3>
             <p className="text-paragraph text-dark-grey">
-              Inspire is an alternative to CPAP that works inside your body
-              while you sleep. It’s a small device placed during a same-day,
-              outpatient procedure.
+              If you suspect you may have obstructive sleep apnea, you should
+              consult your doctor or other certified physician. Depending on
+              your symptoms they may have you take a sleep test, the results of
+              which will determine how your sleep apnea will be treated.
             </p>
             <p className="text-paragraph text-dark-grey">
-              Inspire is an alternative to CPAP that works inside your body
-              while you sleep. It’s a small device placed during a same-day,
-              outpatient procedure.
+              For those with severe sleep apnea, a CPAP device will most often
+              be prescribed to treat your symptoms. If you have mild or moderate
+              sleep apnea, you will however be eligible for surgery or an oral
+              appliance to alleviate your sleep apnea.
             </p>
           </div>
         </div>
@@ -244,11 +255,23 @@ export default function Education() {
       <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center gap-[40px]">
           {/* video */}
-          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full">
+          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full relative">
+            <div id="poster" onClick={playVideo}>
+              <img
+                className="absolute left-0 right-0 top-0 bottom-0 m-auto cursor-pointer"
+                src="./assets/play-icon.svg"
+                alt="icon"
+              ></img>
+              <img
+                src="https://www.inspiresleep.com/wp-content/uploads/2021/10/Screen-Shot-2019-07-10-at-3.webp"
+                className="cursor-pointer"
+              />
+            </div>
             <iframe
-              title="Video Review"
+              id="video"
+              title="Commercial"
               src="https://player.vimeo.com/video/146022717?color=0c88dd&title=0&byline=0&portrait=0&badge=0"
-              className="embed-container"
+              className="embed-container hidden"
               width="640px"
               height="360px"
               frameborder="0"
@@ -268,9 +291,12 @@ export default function Education() {
               outpatient procedure.
             </p> */}
             <p className="text-paragraph text-dark-grey">
-              Inspire is an alternative to CPAP that works inside your body
-              while you sleep. It’s a small device placed during a same-day,
-              outpatient procedure.
+              Sleep Well offers oral appliance therapy for patients with mild or
+              moderate obstructive sleep apnea. Our experienced dentist designs
+              custom made and custom fitted appliances to ensure our patients
+              are recieving the most comfortable and effective solution for
+              their symptoms. Request a free consultation today and start
+              getting the sleep you deserve.
             </p>
           </div>
         </div>

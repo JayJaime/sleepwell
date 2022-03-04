@@ -8,6 +8,9 @@ import Footer from "../components/footer";
 import "./Home.css";
 
 function Home() {
+  let videoPoster = document.getElementById("poster");
+  console.log(videoPoster);
+
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -20,8 +23,18 @@ function Home() {
       video:
         "https://player.vimeo.com/video/146022717?color=0c88dd&title=0&byline=0&portrait=0&badge=0",
       image: "./assets/unsplash.jpg",
+      poster: "./assets/unsplash.jpg",
     },
   ];
+
+  const playVideo = () => {
+    console.log("you clicked it");
+    var videoPoster = document.getElementById("poster");
+    videoPoster.classList.add("hidden");
+    var video = document.getElementById("video");
+    video.classList.remove("hidden");
+    // video.playVideo();
+  };
 
   return (
     <div className="flex flex-col justify-center items-center">
@@ -63,7 +76,7 @@ function Home() {
                 Sleep Well.
               </span>
             </h1>
-            <p className="text-paragraph font-regular text-center sm:text-center max-w-[920px] text-dark-grey">
+            <p className="text-paragraph font-regular text-center sm:text-center max-w-[840px] text-dark-grey">
               We provide a simple, and efficient treatment option for
               obstructive sleep apnea, with custom-made oral appliances that fit
               like a retainer and keep you sound asleep.
@@ -82,24 +95,36 @@ function Home() {
           </div>
         </div>
         {/* image section */}
-        <div className="rounded-xl overflow-hidden max-h-[516px] max-w-[1280px]">
+        {/* <div className="rounded-xl overflow-hidden max-h-[516px] max-w-[1280px]">
           <img
             className="object-fill"
-            src="./assets/somnox.jpg"
-            alt="office"
+            src="./assets/hero-img.png"
+            alt="man sleeping peacefully"
           ></img>
-        </div>
+        </div> */}
       </div>
 
       {/* How It Works Section */}
       <div className="mt-[24px] w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row items-center justify-center gap-[40px]">
           {/* video */}
-          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full">
+          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full relative">
+            <div id="poster" onClick={playVideo}>
+              <img
+                className="absolute left-0 right-0 top-0 bottom-0 m-auto cursor-pointer"
+                src="./assets/play-icon.svg"
+                alt="icon"
+              ></img>
+              <img
+                src="https://www.inspiresleep.com/wp-content/uploads/2021/10/Screen-Shot-2019-07-10-at-3.webp"
+                className="cursor-pointer"
+              />
+            </div>
             <iframe
-              title="Video Review"
+              id="video"
+              title="Commercial"
               src="https://player.vimeo.com/video/146022717?color=0c88dd&title=0&byline=0&portrait=0&badge=0"
-              className="embed-container"
+              className="embed-container hidden"
               width="640px"
               height="360px"
               frameborder="0"
@@ -109,20 +134,23 @@ function Home() {
           </div>
           {/* text section */}
           <div className="w-full max-w-[640px] h-full flex flex-col items-start justify-between gap-[24px]">
-            <h3 className="title-text font-bold text-left text-dark">
+            {/* <h3 className="title-text font-bold text-left text-dark">
               How Treatment With{" "}
               <span className="text-primary-blue inline-block">Sleep Well</span>{" "}
               Works
+            </h3> */}
+            <h3 className="title-text font-bold text-left text-dark">
+              How Oral Appliance Therapy Works
             </h3>
             <p className="text-paragraph text-primary-blue font-semibold">
-              Inspire is an alternative to CPAP that works inside your body
-              while you sleep. It’s a small device placed during a same-day,
-              outpatient procedure.
+              Oral appliance therapy is an alternative to CPAP that works by
+              keeping your jaw positioned forward, keeping your airway open
+              while you sleep.
             </p>
-            <p className="text-paragraph text-dark-grey">
-              Inspire is an alternative to CPAP that works inside your body
-              while you sleep. It’s a small device placed during a same-day,
-              outpatient procedure.
+            <p className="text-paragraph-sm text-dark-grey">
+              When you're ready to go to sleep, simply place the oral appliance
+              in your mouth like a retainer and go to sleep knowing you'll be
+              well rested and full of energy in the morning.
             </p>
           </div>
         </div>
@@ -224,8 +252,7 @@ function Home() {
       </div>
 
       {/* Quote Section */}
-      <div className="w-full h-auto bg-light-grey-blue py-[64px] lg:py-[96px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center">
-        {/* Details */}
+      {/* <div className="w-full h-auto bg-light-grey-blue py-[64px] lg:py-[96px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center">
         {listOfReviews.map((review) => {
           return (
             <Quote
@@ -233,10 +260,11 @@ function Home() {
               name={review.name}
               video={review.video}
               image={review.image}
+              poster={review.poster}
             />
           );
         })}
-      </div>
+      </div> */}
 
       {/* Outcomes Section */}
       <div className="w-full h-auto bg-white py-[64px] lg:py-[96px] px-[24px] md:px-[56px] flex flex-col items-center justify-center">

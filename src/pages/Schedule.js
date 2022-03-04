@@ -26,9 +26,9 @@ function Schedule() {
         <h1 className="lg-display-text font-bold text-center text-dark">
           Request a Free Consultation
         </h1>
-        <p className="text-paragraph font-regular text-center sm:text-center max-w-[920px] text-dark-grey">
-          Everything you need to know about the product and billing. Can’t find
-          the answer you’re looking for? Please chat to our friendly team.
+        <p className="text-paragraph font-regular text-center sm:text-center max-w-[640px] text-dark-grey">
+          Fill out the form below and our excellent team will get in touch with
+          you to schedule your appointment.
         </p>
       </div>
 
@@ -69,7 +69,7 @@ function Schedule() {
                   Visit Us
                 </h4>
                 <p className="text-paragraph-sm text-dark-grey text-left">
-                  Come say hello at our office HQ.
+                  Come meet our incredible staff.
                 </p>
                 <p
                   onClick={() =>
