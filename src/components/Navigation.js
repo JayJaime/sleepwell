@@ -35,7 +35,7 @@ export default function Navigation() {
             />
           </div>
           {/* CTA */}
-          <SmButton />
+          <SmButton url="/schedule" />
         </div>
       </div>
 
@@ -52,7 +52,7 @@ export default function Navigation() {
           </ButtonLink>
           {/* CTA */}
           <div className="flex gap-x-8">
-            <SmButton />
+            <SmButton url="/schedule" />
             {/* Navigation */}
             <div
               onClick={() => setIsOpen(true)}

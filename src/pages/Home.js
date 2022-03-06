@@ -1,5 +1,5 @@
-import React, { useLayoutEffect } from "react";
-import { NavLink as ButtonLink } from "react-router-dom";
+import React from "react";
+import { NavLink as ButtonLink, useNavigate } from "react-router-dom";
 import Quote from "../components/quote";
 import Stat from "../components/stat";
 import CtaSection from "../components/ctaSection";
@@ -11,9 +11,13 @@ function Home() {
   let videoPoster = document.getElementById("poster");
   console.log(videoPoster);
 
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
+
+  const Reload = () => {
+    window.location.assign("/schedule");
+  };
 
   const listOfReviews = [
     {
@@ -33,7 +37,8 @@ function Home() {
     videoPoster.classList.add("hidden");
     var video = document.getElementById("video");
     video.classList.remove("hidden");
-    // video.playVideo();
+    // play video
+    video.src += "&autoplay=1";
   };
 
   return (
@@ -84,6 +89,7 @@ function Home() {
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-[32px] px-[0px]">
             <ButtonLink
+              onClick={Reload}
               to="/schedule"
               type="button"
               className="w-auto min-w-[200px] rounded-full transition ease-in-out px-[24px] pt-4 pb-4 bg-primary-blue text-white hover:bg-primary-blue-hover transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"

@@ -4,9 +4,9 @@ import Footer from "../components/footer";
 import Swal from "sweetalert2";
 
 function Schedule() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
 
   const [copiedText, setCopiedText] = useState("");
 

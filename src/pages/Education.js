@@ -5,9 +5,9 @@ import ContactInfo from "../components/contactInfo";
 import Footer from "../components/footer";
 
 export default function Education() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
 
   const playVideo = () => {
     console.log("you clicked it");
@@ -15,7 +15,8 @@ export default function Education() {
     videoPoster.classList.add("hidden");
     var video = document.getElementById("video");
     video.classList.remove("hidden");
-    // video.playVideo();
+    // play video
+    video.src += "&autoplay=1";
   };
 
   return (

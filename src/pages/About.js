@@ -17,9 +17,9 @@ function About() {
     }
   }, [copiedText]);
 
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
 
   return (
     <div className="flex flex-col justify-center items-center">

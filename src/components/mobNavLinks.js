@@ -2,8 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 export default function NavLinks(props) {
+  const Reload = () => {
+    window.location.assign(props.url);
+  };
+
   return (
     <NavLink
+      onClick={Reload}
       to={props.url}
       className={({ isActive }) =>
         isActive

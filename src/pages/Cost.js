@@ -6,9 +6,9 @@ import Swal from "sweetalert2";
 import "./Home.css";
 
 function Cost() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
+  // useLayoutEffect(() => {
+  //   window.scrollTo(0, 0);
+  // });
 
   const [copiedText, setCopiedText] = useState("");
 
