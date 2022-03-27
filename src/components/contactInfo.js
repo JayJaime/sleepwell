@@ -37,7 +37,7 @@ export default function ContactInfo() {
                 info@sleepwellnewmexico.com
               </p>
               <p className="text-paragraph-sm text-light-blue opacity-60 text-left">
-                Our friendly team is here to help.
+                Our team is here to help.
               </p>
             </div>
           </li>
@@ -79,10 +79,10 @@ export default function ContactInfo() {
                 Call Us
               </h4> */}
               <p
-                onClick={() => setCopiedText("+1 (555) 000-0000")}
+                onClick={() => setCopiedText("+1 (505) 999-9628")}
                 className="text-paragraph-sm text-light-blue text-left cursor-pointer"
               >
-                +1 (555) 000-0000
+                +1 (505) 999-9628
               </p>
               <p className="text-paragraph-sm text-light-blue opacity-60 text-left">
                 Mon-Fri from 8am to 5pm.

@@ -22,14 +22,14 @@ export default function Education() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Title */}
-      <div className="w-full max-w-[980px] flex flex-col items-center justify-center pt-[64px] lg:pt-[96px] mt-[64px] lg:mt-[96px] px-[24px] desktop:px-[0px] gap-[20px]">
-        <h1 className="text-large-display font-bold text-center text-dark">
-          What is Sleep Apnea?
+      <div className="w-full max-w-[980px] flex flex-col items-center justify-center pt-[64px] lg:pt-[96px] m-[64px] lg:m-[96px] px-[24px] desktop:px-[0px] gap-[20px]">
+        <h1 className="lg-display-text font-bold text-center text-dark">
+          Sleep Apnea Education
         </h1>
-        {/* <p className="text-paragraph text-dark-grey text-center max-w-[740px]">
-          Everything you need to know about the product and billing. Can’t find
-          the answer you’re looking for? Please chat to our friendly team.
-        </p> */}
+        <p className="text-paragraph text-dark-grey text-center max-w-[740px]">
+          A brief overview of sleep apnea and the serious dangers and risks
+          associated with the disorder.
+        </p>
       </div>
 
       {/* What is Sleep Apnea Section */}
@@ -50,9 +50,9 @@ export default function Education() {
           </div>
           {/* text section */}
           <div className="w-full max-w-[640px] h-full flex flex-col items-start justify-between gap-[24px]">
-            {/* <h3 className="title-text font-bold text-left text-dark">
+            <h3 className="title-text font-bold text-left text-dark">
               What is Sleep Apnea?
-            </h3> */}
+            </h3>
             <p className="text-paragraph text-dark-grey">
               Are you constantly waking up in the middle of the night? Do you
               still feel tired in the morning? You may have sleep apnea, a
@@ -263,10 +263,7 @@ export default function Education() {
                 src="./assets/play-icon.svg"
                 alt="icon"
               ></img>
-              <img
-                src="https://www.inspiresleep.com/wp-content/uploads/2021/10/Screen-Shot-2019-07-10-at-3.webp"
-                className="cursor-pointer"
-              />
+              <img src="./assets/CommercialBG.png" className="cursor-pointer" />
             </div>
             <iframe
               id="video"

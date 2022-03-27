@@ -10,12 +10,11 @@ module.exports = {
       "light-grey-border": "#D0D5DD",
       "light-blue": "#C9DBFE",
       dark: "#242646",
-      "dark-grey": "#667085",
+      "dark-grey": "#535C6C",
       "primary-blue-hover": "#4D5DED",
     },
     backgroundImage: {
       "hero-pattern": "url('/public/assets/heroBg.svg')",
-      "footer-texture": "url('/img/footer-texture.png')",
     },
     screens: {
       // Screen size change for video container size

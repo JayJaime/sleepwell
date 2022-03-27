@@ -25,7 +25,7 @@ function Cost() {
     <div className="flex flex-col justify-center items-center">
       {/* Title */}
       <div className="w-full max-w-[640px] lg:max-w-[980px] flex items-center justify-center pt-[64px] lg:pt-[96px] mt-[64px] lg:mt-[96px] px-[24px] desktop:px-[0px]">
-        <h1 className="text-large-display font-bold text-center text-dark">
+        <h1 className="lg-display-text font-bold text-center text-dark">
           You may be eligible for{" "}
           <span className="inline-block">oral appliance</span> therapy if...
         </h1>
@@ -36,7 +36,7 @@ function Cost() {
         {/* checklist */}
         <div className="w-full max-w-[640px] lg:max-w-[1280px] flex flex-col-reverse lg:flex-row-reverse items-center justify-between gap-[40px]">
           <div>
-            <ul className="flex flex-col gap-[24px]">
+            <ul className="flex flex-col gap-[24px] md:gap-[40px]">
               <li className="flex items-start justify-start gap-[16px]">
                 <img src="./assets/check-icon.svg" alt="check icon"></img>
                 <p className="text-paragraph text-primary-blue font-semibold">
@@ -120,10 +120,10 @@ function Cost() {
                         its simple and easy for you to get treatment for your
                         sleep apnea. Call us at{" "}
                         <span
-                          onClick={() => setCopiedText("+1 (555) 000-0000")}
+                          onClick={() => setCopiedText("+1 (505) 999-9628")}
                           className="text-primary-blue cursor-pointer"
                         >
-                          (505) 355-2792
+                          (505) 999-9628
                         </span>{" "}
                         to learn more about our financial options.
                       </p>

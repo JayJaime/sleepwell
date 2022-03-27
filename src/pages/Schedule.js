@@ -27,17 +27,17 @@ function Schedule() {
           Request a Free Consultation
         </h1>
         <p className="text-paragraph font-regular text-center sm:text-center max-w-[640px] text-dark-grey">
-          Fill out the form below and our excellent team will get in touch with
-          you to schedule your appointment.
+          Fill out the form below and our team will get in touch with you to
+          schedule your appointment.
         </p>
       </div>
 
       {/* Content */}
       <div className="w-full py-[64px] lg:py-[96px] flex flex-col-reverse lg:flex-row items-center justify-center gap-[96px] px-[24px] md:px-[56px]">
         {/* Contact info */}
-        <div className="w-full max-w-[450px] px-[32px] py-[64px] bg-light-grey-blue rounded-2xl">
+        <div className="w-full max-w-[450px] px-[24px] md:px-[32px] py-[24px] md:py-[64px] bg-light-grey-blue rounded-2xl">
           <ul className="w-full h-full flex flex-col gap-[48px] items-stretch justify-between">
-            <li className="flex flex-row items-start justify-start gap-[20px] w-full">
+            <li className="flex flex-row items-start justify-start gap-[20px] w-full max-w-[450px]">
               <img
                 className="mt-[4px]"
                 src="./assets/mail.svg"
@@ -47,12 +47,12 @@ function Schedule() {
                 <h4 className="medium-title-text text-dark font-semibold text-left">
                   Email Us
                 </h4>
-                <p className="text-paragraph-sm text-dark-grey text-left">
+                <p className="text-[18px] text-dark-grey text-left">
                   Our friendly team is here to help.
                 </p>
                 <p
                   onClick={() => setCopiedText("info@sleepwellnewmexico.com")}
-                  className="text-paragraph-sm text-primary-blue text-left cursor-pointer"
+                  className="text-[18px] text-primary-blue text-left cursor-pointer"
                 >
                   info@sleepwellnewmexico.com
                 </p>
@@ -68,7 +68,7 @@ function Schedule() {
                 <h4 className="medium-title-text text-dark font-semibold text-left">
                   Visit Us
                 </h4>
-                <p className="text-paragraph-sm text-dark-grey text-left">
+                <p className="text-[18px] text-dark-grey text-left">
                   Come meet our incredible staff.
                 </p>
                 <p
@@ -77,7 +77,7 @@ function Schedule() {
                       "10411 Lagrima De Oro Rd Albuquerque, NM 87111"
                     )
                   }
-                  className="text-paragraph-sm text-primary-blue text-left max-w-[225px] cursor-pointer"
+                  className="text-[18px] text-primary-blue text-left max-w-[225px] cursor-pointer"
                 >
                   10411 Lagrima De Oro Rd Albuquerque, NM 87111
                 </p>
@@ -93,14 +93,14 @@ function Schedule() {
                 <h4 className="medium-title-text text-dark font-semibold text-left">
                   Call Us
                 </h4>
-                <p className="text-paragraph-sm text-dark-grey text-left">
+                <p className="text-[18px] text-dark-grey text-left">
                   Mon-Fri from 8am to 5pm.
                 </p>
                 <p
-                  onClick={() => setCopiedText("+1 (555) 000-0000")}
-                  className="text-paragraph-sm text-primary-blue text-left cursor-pointer"
+                  onClick={() => setCopiedText("+1 (505) 999-9628")}
+                  className="text-[18px] text-primary-blue text-left cursor-pointer"
                 >
-                  +1 (555) 000-0000
+                  +1 (505) 999-9628
                 </p>
               </div>
             </li>

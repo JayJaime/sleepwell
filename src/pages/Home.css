@@ -1,8 +1,11 @@
 .bg-hero {
+  width: 100%;
+  height: 100%;
   background-image: url("../../public/assets/heroBg.svg");
+  /* background-attachment: fixed; */
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .bg-hero2 {
@@ -38,7 +41,7 @@
 }
 
 .text-paragraph-sm {
-  font-size: clamp(16px, 2.5vw, 18px);
+  font-size: clamp(18px, 2.5vw, 20px);
   line-height: 1.4;
 }
 
