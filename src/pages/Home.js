@@ -272,20 +272,20 @@ function Home() {
       {/* Outcomes Section */}
       <div className="w-full h-auto bg-white py-[64px] lg:py-[96px] px-[24px] md:px-[56px] flex flex-col items-center justify-center">
         {/* title */}
-        <div className="flex flex-col video-xs:items-start video-sm:items-center justify-center w-full h-auto max-w-[640px] lg:max-w-[1280px]">
-          <h3 className="title-text font-bold video-xs:text-left video-sm:text-center text-dark">
+        <div className="flex flex-col items-center justify-center w-full h-auto max-w-[640px] lg:max-w-[1280px]">
+          <h3 className="title-text font-bold text-center text-dark">
             Outcomes and Results
           </h3>
-          <p className="text-paragraph video-xs:text-left video-sm:text-center mt-[20px] text-dark-grey max-w-[640px]">
+          <p className="text-paragraph text-center mt-[20px] text-dark-grey max-w-[640px]">
             With their ease of use and effectiveness, many are turning to oral
             appliance therapy.
           </p>
         </div>
         {/* list */}
         <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px]">
-          <ul className="mt-[64px] flex flex-wrap lg:flex-row video-xs:justify-start video-sm:justify-center lg:justify-between items-center gap-[48px] desktop:gap-[80px]">
+          <ul className="mt-[64px] flex flex-wrap lg:flex-row justify-center lg:justify-between items-center gap-[48px] desktop:gap-[80px]">
             {/* item 1 */}
-            <li className="flex flex-col video-xs:justify-start video-xs:items-start video-sm:justify-center video-sm:items-center gap-[20px] max-w-[400px]">
+            <li className="flex flex-col justify-center items-center gap-[20px] max-w-[400px]">
               <Stat stat="87%" label="Satisfaction with oral appliance" />
             </li>
             <li className="flex flex-col video-xs:justify-start video-xs:items-start video-sm:justify-center video-sm:items-center gap-[20px] max-w-[400px]">
