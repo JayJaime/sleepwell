@@ -33,9 +33,9 @@ function Schedule() {
       </div>
 
       {/* Content */}
-      <div className="w-full py-[64px] lg:py-[96px] flex flex-col-reverse lg:flex-row items-center justify-center gap-[96px] px-[24px] md:px-[56px]">
+      <div className="w-full py-[64px] lg:py-[96px] flex flex-col-reverse lg:flex-row items-center justify-center lg:gap-[96px] px-[24px] md:px-[56px]">
         {/* Contact info */}
-        <div className="w-full max-w-[450px] px-[24px] md:px-[32px] py-[24px] md:py-[64px] bg-light-grey-blue rounded-2xl">
+        <div className="w-full max-w-[450px] px-[24px] md:px-[32px] py-[24px] md:py-[64px] bg-light-grey-blue rounded-2xl mt-[96px] lg:mt-[0px]">
           <ul className="w-full h-full flex flex-col gap-[48px] items-stretch justify-between">
             <li className="flex flex-row items-start justify-start gap-[20px] w-full max-w-[450px]">
               <img

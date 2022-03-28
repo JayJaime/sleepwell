@@ -34,9 +34,9 @@ export default function Education() {
 
       {/* What is Sleep Apnea Section */}
       <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
-        <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center gap-[40px]">
+        <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center lg:gap-[40px]">
           {/* video */}
-          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full">
+          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full mt-[40px] lg:mt-[0px]">
             <iframe
               className="embed-container"
               width="560"
@@ -254,9 +254,9 @@ export default function Education() {
 
       {/* How Sleep Well Can Help Section */}
       <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
-        <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center gap-[40px]">
+        <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center lg:gap-[40px]">
           {/* video */}
-          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full relative">
+          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full relative mt-[40px] lg:mt-[0px]">
             <div id="poster" onClick={playVideo}>
               <img
                 className="absolute left-0 right-0 top-0 bottom-0 m-auto cursor-pointer"
