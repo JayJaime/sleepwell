@@ -74,7 +74,7 @@ function Home() {
       {/* Hero Section */}
       <div className="w-full flex flex-col justify-center items-center gap-[64px] py-[64px] lg:py-[96px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px]">
         <div className="w-full flex flex-col justify-center items-center gap-[24px]">
-          <div className="w-full flex flex-col justify-center items-center gap-[24px] md:p-[32px] p-[16px]">
+          <div className="w-full flex flex-col justify-center items-center gap-[24px] md:p-[32px] p-[0px]">
             <h1 className="text-large-display font-bold text-center text-dark max-w-[850px]">
               No Mask. <span className="inline-block">No Surgery.</span>{" "}
               <span className="inline-block text-primary-blue">
