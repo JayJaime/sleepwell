@@ -92,7 +92,7 @@ function Home() {
               onClick={Reload}
               to="/schedule"
               type="button"
-              className="w-auto w-[300px] h-[62px] rounded-full transition ease-in-out pl-4 pr-4 pt-4 pb-4 bg-primary-blue text-white hover:bg-primary-blue-hover transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
+              className="w-auto w-[320px] h-[62px] rounded-full transition ease-in-out pl-4 pr-4 pt-4 pb-4 bg-primary-blue text-white hover:bg-primary-blue-hover transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
             >
               <h4 className=" text-[20px] font-bold text-center">
                 Request Free Consultation
