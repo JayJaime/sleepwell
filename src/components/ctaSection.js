@@ -22,7 +22,7 @@ export default function ctaSection() {
           onClick={Reload}
           to="/schedule"
           type="button"
-          className="w-auto min-w-[200px] rounded-full transition ease-in-out px-[24px] pt-4 pb-4 bg-white text-primary-blue hover:bg-light-grey transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
+          className="w-auto w-[294px] h-[62px] rounded-full transition ease-in-out px-[24px] pt-4 pb-4 bg-white text-primary-blue hover:bg-light-grey transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
         >
           <h4 className=" text-[20px] font-bold text-center">
             Request Free Consultation

@@ -127,7 +127,7 @@ export default function Navigation() {
           to="/schedule"
           onClick={() => setIsOpen(false)}
           type="button"
-          className="mt-8 max-w-md rounded-full transition ease-in-out pr-4 pl-4 pt-4 pb-4 bg-white text-primary-blue hover:bg-opacity-90 transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
+          className="mt-8 w-[294px] h-[62px] rounded-full transition ease-in-out pr-4 pl-4 pt-4 pb-4 bg-white text-primary-blue hover:bg-opacity-90 transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
         >
           <h4 className="text-[20px] font-bold text-center">
             Request Free Consultation
