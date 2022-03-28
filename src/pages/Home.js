@@ -87,7 +87,7 @@ function Home() {
               like a retainer and keep you sound asleep.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-[32px] px-[0px]">
+          <div className="flex flex-col sm:flex-row items-center justify-center mt-[24px] sm:mt-[0px] gap-[32px] px-[0px]">
             <ButtonLink
               onClick={Reload}
               to="/schedule"
