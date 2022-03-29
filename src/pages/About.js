@@ -87,7 +87,7 @@ function About() {
 
       {/* Sleep Well Description */}
       <div className="w-full h-auto bg-white py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
-        <div className="max-w-[1280px] w-full flex flex-col lg:flex-row items-center justify-between gap-[40px]">
+        <div className="max-w-[1280px] w-full flex flex-col md:flex-row items-center md:items-start justify-between gap-[40px]">
           {/* text */}
           <div className="w-full max-w-[640px] lg:max-w-[600px]">
             <h3 className="title-text font-bold text-left text-dark">
