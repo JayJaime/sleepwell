@@ -117,7 +117,7 @@ function About() {
             </p>
           </div>
           {/* image */}
-          <div className="md:max-w-[560px] w-full rounded-xl overflow-hidden h-full md:max-h-[740px]">
+          <div className="md:max-w-[560px] max-w-[640px] rounded-xl overflow-hidden h-full md:max-h-[740px]">
             <img
               className="object-fill"
               src="./assets/sleeping-img.png"
