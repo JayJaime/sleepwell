@@ -223,9 +223,9 @@ export default function Education() {
 
       {/* Treatment Options Section */}
       <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
-        <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-[40px]">
+        <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row items-center justify-between lg:gap-[40px]">
           {/* image */}
-          <div className="overflow-hidden rounded-xl max-w-[500px] w-full">
+          <div className="overflow-hidden rounded-xl max-w-[500px] w-full mt-[40px] lg:mt-[0px]">
             <img
               className="object-fill"
               src="./assets/treatment-options.png"

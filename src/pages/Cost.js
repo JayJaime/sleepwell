@@ -34,7 +34,7 @@ function Cost() {
       {/* Eligibility Section */}
       <div className="w-full flex items-center justify-center py-[64px] lg:py-[96px] px-[24px] md:px-[56px]">
         {/* checklist */}
-        <div className="w-full max-w-[640px] lg:max-w-[1280px] flex flex-col-reverse lg:flex-row-reverse items-center justify-between gap-[40px]">
+        <div className="w-full max-w-[640px] lg:max-w-[1280px] flex flex-col-reverse lg:flex-row-reverse items-center justify-between lg:gap-[40px]">
           <div>
             <ul className="flex flex-col gap-[24px] md:gap-[40px]">
               <li className="flex items-start justify-start gap-[16px]">
@@ -58,7 +58,7 @@ function Cost() {
             </ul>
           </div>
           {/* image */}
-          <div className="max-w-[640px] w-full rounded-xl overflow-hidden max-h-[360px]">
+          <div className="max-w-[640px] w-full rounded-xl overflow-hidden max-h-[360px] mt-[40px] lg:mt-[0px]">
             <img
               className=""
               src="./assets/eligibility-img.png"
