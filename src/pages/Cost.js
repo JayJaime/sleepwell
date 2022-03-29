@@ -58,7 +58,7 @@ function Cost() {
             </ul>
           </div>
           {/* image */}
-          <div className="max-w-[640px] w-full rounded-xl overflow-hidden max-h-[360px] mt-[40px] lg:mt-[0px]">
+          <div className="max-w-[640px] w-full rounded-xl overflow-hidden max-h-[360px] mb-[40px] lg:mb-[0px]">
             <img
               className=""
               src="./assets/eligibility-img.png"
