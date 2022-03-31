@@ -180,7 +180,7 @@ function About() {
 
       {/* Location info */}
       <div className="w-full flex justify-center items-center py-[64px] lg:py-[96px] px-[24px] md:px-[56px]">
-        <div className="w-full max-w-[1280px] flex flex-col justify-between items-center gap-[64px]">
+        <div className="w-full max-w-[1280px] flex flex-col justify-between items-center gap-[0px]">
           {/* title section */}
           <div className="w-full flex flex-col items-center justify-center gap-[24px]">
             <h3 className="title-text font-bold text-center text-dark">
@@ -191,7 +191,7 @@ function About() {
             </p> */}
           </div>
           {/* map section */}
-          <div className="aspect-video overflow-hidden rounded-xl max-w-[1280px] w-full max-h-[400px] border border-light-grey-border">
+          <div className="aspect-video overflow-hidden rounded-xl max-w-[1280px] w-full max-h-[400px] border border-light-grey-border mt-[40px] sm:mt-[64px] mb-[64px]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.972396464595!2d-106.52648568475612!3d35.1323623803259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6edccfc71fe93d3!2sSleep%20Well%20New%20Mexico!5e0!3m2!1sen!2sus!4v1646083550088!5m2!1sen!2sus"
               width="1280"
