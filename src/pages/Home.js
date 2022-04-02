@@ -167,11 +167,10 @@ function Home() {
             <h3 className="title-text font-bold text-left text-dark">
               Benefits to Oral Appliance Therapy
             </h3>
-            {/* <p className="text-paragraph text-left mt-[20px] text-dark-grey">
-              The custom made appliance positions the jaw forward while you
-              sleep, providing people with mild to moderate sleep apnea a more
-              peaceful night.
-            </p> */}
+            <p className="text-paragraph text-left mt-[20px] text-dark-grey">
+              The oral appliance fits just like a retainer, and since its custom
+              fit just for you, sleeping peacefully has never been easier.
+            </p>
           </div>
           <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] flex flex-col lg:flex-row items-center justify-between gap-[24px] lg:gap-[64px]">
             {/* list */}
