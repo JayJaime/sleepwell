@@ -82,9 +82,9 @@ function Home() {
               </span>
             </h1>
             <p className="text-paragraph font-regular text-center sm:text-center max-w-[840px] text-dark-grey">
-              We provide a simple, and efficient treatment option for
-              obstructive sleep apnea, with custom-made oral appliances that fit
-              like a retainer and keep you sound asleep.
+              We provide a simple and efficient alternative to CPAP therapy,
+              with custom-made oral appliances that fit like a retainer and keep
+              you sound asleep.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center mt-[24px] sm:mt-[0px] gap-[32px] px-[0px]">
