@@ -23,19 +23,15 @@ function Cost() {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      {/* Title */}
-      <div className="w-full max-w-[640px] lg:max-w-[980px] flex items-center justify-center pt-[64px] lg:pt-[96px] mt-[64px] lg:mt-[96px] px-[24px] desktop:px-[0px]">
-        <h1 className="lg-display-text font-bold text-center text-dark">
-          You may be eligible for{" "}
-          <span className="inline-block">oral appliance</span> therapy if...
-        </h1>
-      </div>
-
       {/* Eligibility Section */}
-      <div className="w-full flex items-center justify-center py-[64px] lg:py-[96px] px-[24px] md:px-[56px]">
+      <div className="w-full flex items-center justify-center pt-[116px] pb-[32px] px-[24px] md:px-[56px]">
         {/* checklist */}
-        <div className="w-full max-w-[640px] lg:max-w-[1280px] flex flex-col-reverse lg:flex-row-reverse items-center justify-between lg:gap-[40px]">
+        <div className="w-full max-w-[640px] lg:max-w-[1280px] flex flex-col lg:flex-row items-center justify-between lg:gap-[40px]">
           <div>
+            <h1 className="lg-display-text font-semibold text-left text-dark mb-[32px] md:mb-[64px]">
+              You may be eligible for{" "}
+              <span className="inline-block">oral appliance</span> therapy if...
+            </h1>
             <ul className="flex flex-col gap-[24px] md:gap-[40px]">
               <li className="flex items-start justify-start gap-[16px]">
                 <img src="./assets/check-icon.svg" alt="check icon"></img>
@@ -46,7 +42,7 @@ function Cost() {
               <li className="flex items-start justify-start gap-[16px]">
                 <img src="./assets/check-icon.svg" alt="check icon"></img>
                 <p className="text-paragraph text-primary-blue font-semibold">
-                  You are looking for an alternative to more invasive therapy
+                  You are looking for an alternative to more invasive therapy.
                 </p>
               </li>
               <li className="flex items-start justify-start gap-[16px]">
@@ -58,23 +54,80 @@ function Cost() {
             </ul>
           </div>
           {/* image */}
-          <div className="max-w-[640px] w-full rounded-xl overflow-hidden max-h-[360px] mb-[40px] lg:mb-[0px]">
+          <div className="w-full mt-[64px] lg:mt-[0px] md:max-w-[500px] overflow-hidden">
             <img
               className=""
-              src="./assets/eligibility-img.png"
+              src="./assets/man-using-cpap.png"
               alt="Sleeping people"
             ></img>
           </div>
         </div>
       </div>
 
-      {/* Benefits Section */}
+      {/* Cost Section */}
+      <div className="mt-[0px] w-full h-auto bg-light-grey-blue py-[116px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center relative">
+        <div className="w-full max-w-[1280px] flex flex-col lg:flex-row-reverse items-center gap-[0px] lg:gap-[40px] lg:items-center justify-center">
+          <div className="w-full flex flex-col items-center lg:items-start justify-center">
+            {/* title */}
+            <div className="w-full h-auto max-w-[640px] lg:max-w-[850px] pr-[16px] mb-[24px] lg:mb-[48px]">
+              <h3 className="title-text font-semibold text-left text-dark">
+                How Much Does It Cost?
+              </h3>
+              <p className="text-paragraph text-left mt-[20px] text-dark-grey">
+                We work very hard to make the financial process as easy as
+                possible, and so work closely with a variety of financing
+                companies to ensure you can get the treatment you need. The cost
+                will vary depending on your treatment plan.
+              </p>
+            </div>
+            <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] flex flex-col lg:flex-row items-start justify-between gap-[24px] lg:gap-[64px]"></div>
+          </div>
+          {/* image */}
+          <div className="lg:max-w-[500px] w-full max-w-[640px] rounded-xl overflow-hidden max-h-[510px] mt-[48px] lg:mt-[0px]">
+            <img
+              className="object-fit"
+              src="./assets/holding-appliance.png"
+              alt="Sleeping people"
+            ></img>
+          </div>
+        </div>
+
+        <div class="custom-shape-divider-top-cost">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+
+        <div class="custom-shape-divider-bottom-cost">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
+      {/* Payments Section */}
       <div className="mt-[0px] w-full h-auto bg-white py-[64px] lg:py-[96px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center">
         <div className="w-full max-w-[1280px] flex flex-col lg:flex-row items-center gap-[0px] lg:gap-[40px] lg:items-center justify-center">
           <div className="w-full flex flex-col items-center lg:items-start justify-center">
             {/* title */}
             <div className="w-full h-auto max-w-[640px] lg:max-w-[850px] pr-[16px] mb-[24px] lg:mb-[48px]">
-              <h3 className="title-text font-bold text-left text-dark">
+              <h3 className="title-text font-semibold text-left text-dark">
                 Payment Options
               </h3>
               {/* <p className="text-paragraph text-left mt-[20px] text-dark-grey">
@@ -137,7 +190,7 @@ function Cost() {
           <div className="lg:max-w-[500px] w-full max-w-[640px] rounded-xl overflow-hidden max-h-[510px] mt-[48px] lg:mt-[0px]">
             <img
               className="object-fit"
-              src="./assets/payment-img.png"
+              src="./assets/payment-options-img.png"
               alt="Sleeping people"
             ></img>
           </div>

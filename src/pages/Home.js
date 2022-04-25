@@ -71,8 +71,62 @@ function Home() {
         </div>
       </div> */}
 
+      {/* New Hero Section */}
+      <div className="w-full flex flex-col justify-center items-center gap-[64px] pt-[64px] pb-[96px] lg:pt-[96px] lg:pb-[200px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px] bg-light-grey-blue relative ">
+        <div className="flex flex-col md:flex-row justify-center items-start max-w-[640px] md:max-w-[1280px]">
+          <div className="w-full flex flex-col justify-center items-start">
+            <p className="text-[14px] md:text-[16px] font-bold text-left sm:text-left max-w-[640px] text-primary-blue tracking-widest">
+              SLEEP BETTER, BREATHE EASIER
+            </p>
+            <h1 className="text-large-display font-semibold text-left text-dark max-w-[830px] mt-[8px] mb-[24px]">
+              Say Goodbye to Your Mask & Hello to{" "}
+              <span className="text-primary-blue">Sleep Well!</span>
+            </h1>
+            <p className="text-paragraph font-regular text-left sm:text-left max-w-[640px] text-dark-grey">
+              We provide a simple, and efficient treatment option for
+              obstructive sleep apnea, with custom-made oral appliances that fit
+              like a retainer and keep you sound asleep.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center mt-[56px] gap-[32px] px-[0px]">
+              <ButtonLink
+                onClick={Reload}
+                to="/schedule"
+                type="button"
+                className="w-auto w-[310px] h-[62px] rounded-full transition ease-in-out pl-4 pr-4 pt-4 pb-4 bg-primary-blue text-white hover:bg-primary-blue-hover transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
+              >
+                <h4 className=" text-[20px] font-bold text-center">
+                  Request Free Consultation
+                </h4>
+              </ButtonLink>
+            </div>
+          </div>
+          {/* image section */}
+          <div className="w-full rounded-xl overflow-hidden md:max-h-[500px] md:max-w-[500px] mt-[64px] md:mt-[0px]">
+            <img
+              className="object-fill"
+              src="./assets/HeroImageDesign.png"
+              alt="sleeping peacefully"
+            ></img>
+          </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
       {/* Hero Section */}
-      <div className="w-full flex flex-col justify-center items-center gap-[64px] py-[64px] lg:py-[96px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px]">
+      {/* <div className="w-full flex flex-col justify-center items-center gap-[64px] py-[64px] lg:py-[96px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px]">
         <div className="w-full flex flex-col justify-center items-center gap-[24px]">
           <div className="w-full flex flex-col justify-center items-center gap-[24px] md:p-[32px] p-[0px]">
             <h1 className="text-large-display font-bold text-center text-dark max-w-[850px]">
@@ -100,21 +154,13 @@ function Home() {
             </ButtonLink>
           </div>
         </div>
-        {/* image section */}
-        {/* <div className="rounded-xl overflow-hidden max-h-[516px] max-w-[1280px]">
-          <img
-            className="object-fill"
-            src="./assets/hero-img.png"
-            alt="man sleeping peacefully"
-          ></img>
-        </div> */}
-      </div>
+      </div> */}
 
       {/* How It Works Section */}
       <div className="mt-[24px] w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row items-center justify-center lg:gap-[40px]">
           {/* video */}
-          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full relative mt-[40px] lg:mt-[0px]">
+          <div className="aspect-video overflow-hidden rounded-md max-w-[640px] w-full relative mt-[40px] lg:mt-[0px]">
             <div id="poster" onClick={playVideo}>
               <img
                 className="absolute left-0 right-0 top-0 bottom-0 m-auto cursor-pointer"
@@ -142,7 +188,7 @@ function Home() {
               <span className="text-primary-blue inline-block">Sleep Well</span>{" "}
               Works
             </h3> */}
-            <h3 className="title-text font-bold text-left text-dark">
+            <h3 className="title-text font-semibold text-left text-dark">
               How Oral Appliance Therapy Works
             </h3>
             <p className="text-paragraph text-primary-blue font-semibold">
@@ -164,7 +210,7 @@ function Home() {
         <div className="w-full max-w-[1280px] flex flex-col items-center lg:items-start justify-center">
           {/* title */}
           <div className="w-full h-auto max-w-[640px] lg:max-w-[850px] pr-[16px] mb-[64px] ">
-            <h3 className="title-text font-bold text-left text-dark">
+            <h3 className="title-text font-semibold text-left text-dark">
               Benefits to Oral Appliance Therapy
             </h3>
             <p className="text-paragraph text-left mt-[20px] text-dark-grey">
@@ -272,7 +318,7 @@ function Home() {
       <div className="w-full h-auto bg-white py-[64px] lg:py-[96px] px-[24px] md:px-[56px] flex flex-col items-center justify-center">
         {/* title */}
         <div className="flex flex-col items-center justify-center w-full h-auto max-w-[640px] lg:max-w-[1280px]">
-          <h3 className="title-text font-bold text-center text-dark">
+          <h3 className="title-text font-semibold text-center text-dark">
             Outcomes and Results
           </h3>
           <p className="text-paragraph text-center mt-[20px] text-dark-grey max-w-[640px]">

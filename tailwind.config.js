@@ -3,14 +3,15 @@ module.exports = {
   theme: {
     colors: {
       "primary-blue": "#5868FA",
+      "darkest-blue": "#262548",
       white: "#FFFFFF",
       "selected-blue": "#ECF2FF",
       "light-grey-blue": "#F5F8FF",
       "light-grey": "#F2F4F7",
       "light-grey-border": "#D0D5DD",
       "light-blue": "#C9DBFE",
-      dark: "#242646",
-      "dark-grey": "#535C6C",
+      dark: "#314880",
+      "dark-grey": "#455A8D",
       "primary-blue-hover": "#4D5DED",
     },
     backgroundImage: {

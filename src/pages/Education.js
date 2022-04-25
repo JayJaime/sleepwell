@@ -23,7 +23,7 @@ export default function Education() {
     <div className="flex flex-col justify-center items-center">
       {/* Title */}
       <div className="w-full max-w-[980px] flex flex-col items-center justify-center pt-[64px] lg:pt-[96px] m-[64px] lg:m-[96px] px-[24px] desktop:px-[0px] gap-[20px]">
-        <h1 className="lg-display-text font-bold text-center text-dark">
+        <h1 className="lg-display-text font-semibold text-center text-dark">
           Sleep Apnea Education
         </h1>
         <p className="text-paragraph text-dark-grey text-center max-w-[740px]">
@@ -36,7 +36,7 @@ export default function Education() {
       <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center lg:gap-[40px]">
           {/* video */}
-          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full mt-[40px] lg:mt-[0px]">
+          <div className="aspect-video overflow-hidden rounded-md max-w-[640px] w-full mt-[40px] lg:mt-[0px]">
             <iframe
               className="embed-container"
               width="560"
@@ -50,7 +50,7 @@ export default function Education() {
           </div>
           {/* text section */}
           <div className="w-full max-w-[640px] h-full flex flex-col items-start justify-between gap-[24px]">
-            <h3 className="title-text font-bold text-left text-dark">
+            <h3 className="title-text font-semibold text-left text-dark">
               What is Sleep Apnea?
             </h3>
             <p className="text-paragraph text-dark-grey">
@@ -74,7 +74,7 @@ export default function Education() {
         <div className="w-full max-w-[1280px] flex flex-col items-center justify-center">
           {/* title */}
           <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] pr-[16px] flex flex-col items-center justify-center">
-            <h3 className="title-text font-bold text-center text-dark">
+            <h3 className="title-text font-semibold text-center text-dark">
               3 Types of Sleep Apnea
             </h3>
             <p className="text-paragraph text-center mt-[20px] text-dark-grey max-w-[640px]">
@@ -88,7 +88,7 @@ export default function Education() {
               {/* item 1 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
                 <div className="w-[48px] h-[48px] bg-light-grey-blue rounded-3xl flex justify-center items-center">
-                  <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
+                  <h4 className="text-primary-blue font-semibold text-[18px] sm:text-[20px]">
                     1
                   </h4>
                 </div>
@@ -106,7 +106,7 @@ export default function Education() {
               {/* item 2 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
                 <div className="w-[48px] h-[48px] bg-light-grey-blue rounded-3xl flex justify-center items-center">
-                  <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
+                  <h4 className="text-primary-blue font-semibold text-[18px] sm:text-[20px]">
                     2
                   </h4>
                 </div>
@@ -123,7 +123,7 @@ export default function Education() {
               {/* item 3 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
                 <div className="w-[48px] h-[48px] bg-light-grey-blue rounded-3xl flex justify-center items-center">
-                  <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
+                  <h4 className="text-primary-blue font-semibold text-[18px] sm:text-[20px]">
                     3
                   </h4>
                 </div>
@@ -146,7 +146,7 @@ export default function Education() {
       <div className="w-full flex flex-col items-center justify-center py-[64px] lg:py-[96px] px-[24px] md:px-[56px] gap-[64px] bg-white">
         {/* title */}
         <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] pr-[16px] flex flex-col items-center justify-center">
-          <h3 className="title-text font-bold text-center text-dark">
+          <h3 className="title-text font-semibold text-center text-dark">
             Signs You May Have Sleep Apnea
           </h3>
           <p className="text-paragraph text-center mt-[20px] text-dark-grey max-w-[740px]">
@@ -175,10 +175,10 @@ export default function Education() {
 
       {/* Risks Section */}
       <div className="w-full flex justify-center items-center py-[64px] lg:py-[96px]">
-        <div className="bg-light-grey-blue w-full max-w-[1280px] flex flex-col lg:flex-row items-center justify-center py-[48px] md:py-[56px] px-[24px] md:px-[56px] desktop:rounded-xl gap-[64px]">
+        <div className="bg-light-grey-blue w-full max-w-[1280px] flex flex-col lg:flex-row items-center justify-center py-[48px] md:py-[56px] px-[24px] md:px-[56px] desktop:rounded-md gap-[64px]">
           {/* title */}
           <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] pr-[16px]">
-            <h3 className="title-text font-bold text-left text-dark">
+            <h3 className="title-text font-semibold text-left text-dark">
               Risks of Untreated{" "}
               <span className="inline-block">Sleep Apnea</span>
             </h3>
@@ -225,7 +225,7 @@ export default function Education() {
       <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row items-center justify-between lg:gap-[40px]">
           {/* image */}
-          <div className="overflow-hidden rounded-xl max-w-[500px] w-full mt-[40px] lg:mt-[0px]">
+          <div className="overflow-hidden rounded-md max-w-[500px] w-full mt-[40px] lg:mt-[0px]">
             <img
               className="object-fill"
               src="./assets/treatment-options.png"
@@ -233,7 +233,7 @@ export default function Education() {
           </div>
           {/* text section */}
           <div className="w-full max-w-[640px] h-full flex flex-col items-start justify-between gap-[24px]">
-            <h3 className="title-text font-bold text-left text-dark">
+            <h3 className="title-text font-semibold text-left text-dark">
               Treatment Options
             </h3>
             <p className="text-paragraph text-dark-grey">
@@ -256,7 +256,7 @@ export default function Education() {
       <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center lg:gap-[40px]">
           {/* video */}
-          <div className="aspect-video overflow-hidden rounded-xl max-w-[640px] w-full relative mt-[40px] lg:mt-[0px]">
+          <div className="aspect-video overflow-hidden rounded-md max-w-[640px] w-full relative mt-[40px] lg:mt-[0px]">
             <div id="poster" onClick={playVideo}>
               <img
                 className="absolute left-0 right-0 top-0 bottom-0 m-auto cursor-pointer"
@@ -279,7 +279,7 @@ export default function Education() {
           </div>
           {/* text section */}
           <div className="w-full max-w-[640px] h-full flex flex-col items-start justify-between gap-[24px]">
-            <h3 className="title-text font-bold text-left text-dark">
+            <h3 className="title-text font-semibold text-left text-dark">
               How <span className="text-primary-blue">Sleep Well</span> Treats
               Obstructive Sleep Apnea
             </h3>

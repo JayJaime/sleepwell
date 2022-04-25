@@ -23,7 +23,7 @@ function Schedule() {
     <div className="flex flex-col justify-center items-center">
       {/* Title */}
       <div className="w-full max-w-[980px] flex flex-col gap-[24px] items-center justify-center pt-[64px] lg:pt-[96px] mt-[64px] lg:mt-[96px] px-[24px] desktop:px-[0px]">
-        <h1 className="lg-display-text font-bold text-center text-dark">
+        <h1 className="lg-display-text font-semibold text-center text-dark">
           Request a Free Consultation
         </h1>
         <p className="text-paragraph font-regular text-center sm:text-center max-w-[640px] text-dark-grey">
@@ -44,7 +44,7 @@ function Schedule() {
                 alt="icon"
               ></img>
               <div className="flex flex-col items-start justify-center gap-[8px]">
-                <h4 className="medium-title-text text-dark font-semibold text-left">
+                <h4 className="medium-title-text text-dark font-semisemibold text-left">
                   Email Us
                 </h4>
                 <p className="text-[18px] text-dark-grey text-left">
@@ -65,7 +65,7 @@ function Schedule() {
                 alt="icon"
               ></img>
               <div className="flex flex-col items-start justify-center gap-[8px]">
-                <h4 className="medium-title-text text-dark font-semibold text-left">
+                <h4 className="medium-title-text text-dark font-semisemibold text-left">
                   Visit Us
                 </h4>
                 <p className="text-[18px] text-dark-grey text-left">
@@ -90,7 +90,7 @@ function Schedule() {
                 alt="icon"
               ></img>
               <div className="flex flex-col items-start justify-center gap-[8px]">
-                <h4 className="medium-title-text text-dark font-semibold text-left">
+                <h4 className="medium-title-text text-dark font-semisemibold text-left">
                   Call Us
                 </h4>
                 <p className="text-[18px] text-dark-grey text-left">

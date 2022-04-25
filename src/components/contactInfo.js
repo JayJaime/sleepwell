@@ -15,7 +15,7 @@ export default function ContactInfo() {
   }, [copiedText]);
 
   return (
-    <div className="w-full flex items-center justify-center bg-dark px-[24px] py-[40px]">
+    <div className="w-full flex flex-col items-center justify-center bg-darkest-blue px-[24px] py-[40px]">
       <div className="w-full max-w-[1280px]">
         <ul className="w-full h-full flex flex-wrap items-stretch justify-between gap-[48px]">
           <li className="flex flex-row items-center justify-start gap-[20px] w-full max-w-[350px]">
@@ -91,6 +91,63 @@ export default function ContactInfo() {
           </li>
         </ul>
       </div>
+
+      {/* new */}
+      {/* <div className="w-full max-w-[1280px] bg-white py-[24px] px-[16px] rounded-md">
+        <ul className="w-full h-full flex flex-wrap items-stretch justify-around gap-[48px]">
+          <li className="flex flex-row items-center justify-start gap-[20px] w-full max-w-[350px]">
+            <div className="w-[48px] h-[48px] bg-primary-blue flex items-center justify-center rounded-full">
+              <img
+                className="mt-[0px] opacity-80"
+                src="./assets/mail-white.svg"
+                alt="icon"
+              ></img>
+            </div>
+            <div className="flex flex-col items-start justify-center gap-[4px]">
+              <p className="text-paragraph-sm text-dark text-left cursor-pointer font-semibold">
+                Email
+              </p>
+              <p className="text-paragraph-sm text-primary-blue text-left">
+                info@sleepwellnewmexico.com
+              </p>
+            </div>
+          </li>
+          <li className="flex flex-row items-center justify-start gap-[20px] w-full max-w-[350px]">
+            <div className="w-[48px] h-[48px] bg-primary-blue flex items-center justify-center rounded-full">
+              <img
+                className="mt-[0px] opacity-80"
+                src="./assets/map-pin-white.svg"
+                alt="icon"
+              ></img>
+            </div>
+            <div className="flex flex-col items-start justify-center gap-[4px]">
+              <p className="text-paragraph-sm text-dark text-left cursor-pointer font-semibold">
+                Location
+              </p>
+              <p className="text-paragraph-sm text-primary-blue text-left">
+                10411 Lagrima De Oro Rd
+              </p>
+            </div>
+          </li>
+          <li className="flex flex-row items-center justify-start gap-[20px] w-full max-w-[350px] ">
+            <div className="w-[48px] h-[48px] bg-primary-blue flex items-center justify-center rounded-full">
+              <img
+                className="mt-[0px] opacity-80"
+                src="./assets/phone-white.svg"
+                alt="icon"
+              ></img>
+            </div>
+            <div className="flex flex-col items-start justify-center gap-[4px]">
+              <p className="text-paragraph-sm text-dark font-semibold text-left cursor-pointer">
+                Phone
+              </p>
+              <p className="text-paragraph-sm text-primary-blue text-left">
+                +1 (505) 999-9628
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div> */}
     </div>
   );
 }
