@@ -49,7 +49,15 @@ function About() {
             </p>
           </div>
           {/* desktop image */}
-          <div className="w-full hidden md:block rounded-xl overflow-hidden md:max-w-[550px] mt-[64px] md:mt-[0px] ml-[0px] md:ml-[24px]">
+          <div className="w-full hidden xl:block rounded-xl overflow-hidden md:max-w-[900px] mt-[64px] md:mt-[0px] ml-[0px] md:ml-[24px] absolute bottom-0 right-[-6rem]">
+            <img
+              className="object-fill"
+              src="./assets/negativeSleepingIllustration-desktop.png"
+              alt="sleeping peacefully"
+            ></img>
+          </div>
+          {/* mid size image */}
+          <div className="w-full hidden md:block xl:hidden rounded-xl overflow-hidden md:max-w-[600px] mt-[64px] md:mt-[0px] ml-[0px] md:ml-[24px]">
             <img
               className="object-fill"
               src="./assets/negativeSleepingIllustration-desktop.png"
