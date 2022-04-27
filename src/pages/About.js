@@ -65,7 +65,7 @@ function About() {
             ></img>
           </div>
           {/* mobile image section */}
-          <div className="w-full md:hidden rounded-xl overflow-hidden md:max-h-[500px] md:max-w-[500px] mt-[96px] mb-[0px] md:mt-[0px]">
+          <div className="w-full md:hidden rounded-xl overflow-hidden md:max-h-[500px] md:max-w-[500px] mt-[64px] mb-[0px] md:mt-[0px]">
             <img
               className="object-fill"
               src="./assets/negativeSleepingIllustration-mobile.png"
