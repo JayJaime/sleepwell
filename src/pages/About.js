@@ -30,7 +30,7 @@ function About() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Header Sec New */}
-      <div className="w-full flex flex-col justify-center items-center gap-[64px] pt-[64px] pb-[96px] lg:pt-[96px] lg:pb-[200px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px] bg-light-grey-blue relative overflow-hidden">
+      <div className="w-full flex flex-col justify-center items-center gap-[64px] pt-[48px] pb-[96px] lg:pt-[96px] lg:pb-[200px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px] bg-light-grey-blue relative overflow-hidden">
         <div className="w-full flex flex-col md:flex-row justify-center items-start max-w-[640px] md:max-w-[1280px]">
           <div className="w-full flex flex-col justify-center items-start">
             {/* <p className="text-[14px] md:text-[16px] font-bold text-left sm:text-left max-w-[640px] text-primary-blue tracking-widest">
