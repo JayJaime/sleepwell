@@ -337,7 +337,7 @@ function Home() {
               <Stat stat="76%" label="Reduction of snoring time" />
             </li>
             <li className="flex flex-col video-xs:justify-start video-xs:items-start video-sm:justify-center video-sm:items-center gap-[20px] max-w-[400px]">
-              <Stat stat="86%" label="Reduction in sleep apnea events" />
+              <Stat stat="85%" label="Reduction in sleep apnea events" />
             </li>
             <li className="flex flex-col video-xs:justify-start video-xs:items-start video-sm:justify-center video-sm:items-center gap-[20px] max-w-[400px]">
               <Stat stat="84%" label="Adherence to treatment" />
