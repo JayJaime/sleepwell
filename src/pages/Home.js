@@ -192,14 +192,14 @@ function Home() {
               How Oral Appliance Therapy Works
             </h3>
             <p className="text-paragraph text-primary-blue font-semibold">
-              Oral appliance therapy is an alternative to CPAP that works by
-              keeping your jaw positioned forward, keeping your airway open
-              while you sleep.
+              Oral appliance therapy is an alternative to CPAP therapy that
+              works by moving your jaw forward, keeping your airway open while
+              you sleep.
             </p>
             <p className="text-paragraph-sm text-dark-grey">
-              When you're ready to go to sleep, simply place the oral appliance
-              in your mouth like a retainer and go to sleep knowing you'll be
-              well rested and full of energy in the morning.
+              Before you go to bed, simply place the oral appliance in your
+              mouth like a retainer and go to sleep knowing you'll be well
+              rested and full of energy in the morning.
             </p>
           </div>
         </div>
