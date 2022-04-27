@@ -210,7 +210,7 @@ function About() {
 
       {/* Doctor Info Section */}
       <div className="mt-[0px] w-full h-auto bg-light-grey-blue py-[116px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center relative">
-        <div className="w-full max-w-[1280px] flex flex-col lg:flex-row items-center gap-[0px] lg:gap-[40px] lg:items-center justify-center">
+        <div className="w-full max-w-[1280px] flex flex-col lg:flex-row items-center gap-[40px] lg:gap-[40px] lg:items-center justify-center">
           <div className="w-full flex flex-col items-center lg:items-start justify-center">
             {/* title */}
             <div className="w-full h-auto max-w-[640px] lg:max-w-[850px] pr-[16px] mb-[24px] lg:mb-[48px]">
