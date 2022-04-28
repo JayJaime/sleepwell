@@ -48,7 +48,7 @@ function Schedule() {
                   Email Us
                 </h4>
                 <p className="text-[18px] text-dark-grey text-left">
-                  Our friendly team is here to help.
+                  Our team is here to help.
                 </p>
                 <p
                   onClick={() => setCopiedText("info@sleepwellnewmexico.com")}
