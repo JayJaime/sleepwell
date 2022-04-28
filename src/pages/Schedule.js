@@ -44,7 +44,7 @@ function Schedule() {
                 alt="icon"
               ></img>
               <div className="flex flex-col items-start justify-center gap-[8px]">
-                <h4 className="medium-title-text text-dark font-semisemibold text-left">
+                <h4 className="medium-title-text text-dark font-medium text-left">
                   Email Us
                 </h4>
                 <p className="text-[18px] text-dark-grey text-left">
@@ -65,7 +65,7 @@ function Schedule() {
                 alt="icon"
               ></img>
               <div className="flex flex-col items-start justify-center gap-[8px]">
-                <h4 className="medium-title-text text-dark font-semisemibold text-left">
+                <h4 className="medium-title-text text-dark font-medium text-left">
                   Visit Us
                 </h4>
                 <p className="text-[18px] text-dark-grey text-left">
@@ -90,7 +90,7 @@ function Schedule() {
                 alt="icon"
               ></img>
               <div className="flex flex-col items-start justify-center gap-[8px]">
-                <h4 className="medium-title-text text-dark font-semisemibold text-left">
+                <h4 className="medium-title-text text-dark font-medium text-left">
                   Call Us
                 </h4>
                 <p className="text-[18px] text-dark-grey text-left">

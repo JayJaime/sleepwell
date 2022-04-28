@@ -44,7 +44,7 @@ export default function Mailer() {
         <div className="w-full flex flex-row gap-[32px]">
           {/* first name */}
           <div className="w-full flex flex-col items-start justify-center gap-[6px]">
-            <label className="font-semibold text-[16px] text-dark-grey">
+            <label className="font-semibold text-[16px] text-dark">
               First Name
             </label>
             <input
@@ -58,7 +58,7 @@ export default function Mailer() {
           </div>
           {/* last name */}
           <div className="w-full flex flex-col items-start justify-center gap-[6px]">
-            <label className="font-semibold text-[16px] text-dark-grey">
+            <label className="font-semibold text-[16px] text-dark">
               Last Name
             </label>
             <input
@@ -74,9 +74,7 @@ export default function Mailer() {
 
         {/* Email */}
         <div className="w-full flex flex-col items-start justify-center gap-[6px]">
-          <label className="font-semibold text-[16px] text-dark-grey">
-            Email
-          </label>
+          <label className="font-semibold text-[16px] text-dark">Email</label>
           <input
             className="w-full max-w-[640px] h-[48px] rounded-[8px] border border-1 border-light-grey-border focus:border-primary-blue outline-none px-[16px] py-[12px] text-paragraph-sm"
             placeholder="Email"
@@ -89,7 +87,7 @@ export default function Mailer() {
 
         {/* Phone */}
         <div className="w-full flex flex-col items-start justify-center gap-[6px]">
-          <label className="font-semibold text-[16px] text-dark-grey">
+          <label className="font-semibold text-[16px] text-dark">
             Phone Number
           </label>
           <input
@@ -103,9 +101,7 @@ export default function Mailer() {
         </div>
 
         <div className="w-full flex flex-col items-start justify-center gap-[6px]">
-          <label className="font-semibold text-[16px] text-dark-grey">
-            Message
-          </label>
+          <label className="font-semibold text-[16px] text-dark">Message</label>
           <textarea
             className="w-full max-w-[640px] h-[124px] rounded-[8px] border border-1 border-light-grey-border focus:border-primary-blue outline-none px-[16px] py-[12px] text-paragraph-sm"
             placeholder="Question/Comment"
