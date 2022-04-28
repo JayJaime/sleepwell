@@ -10,7 +10,7 @@ module.exports = {
       "light-grey": "#F2F4F7",
       "light-grey-border": "#D0D5DD",
       "light-blue": "#C9DBFE",
-      dark: "#314880",
+      dark: "#27365A",
       "dark-grey": "#455A8D",
       "primary-blue-hover": "#4D5DED",
     },
