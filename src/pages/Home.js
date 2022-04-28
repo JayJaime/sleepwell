@@ -157,7 +157,7 @@ function Home() {
       </div> */}
 
       {/* How It Works Section */}
-      <div className="mt-[24px] w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
+      <div className="mt-[24px] w-full py-[48px] lg:py-[56px] flex items-center justify-center px-[24px] md:px-[56px]">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row items-center justify-center lg:gap-[40px]">
           {/* video */}
           <div className="aspect-video overflow-hidden rounded-md max-w-[640px] w-full relative mt-[40px] lg:mt-[0px]">
