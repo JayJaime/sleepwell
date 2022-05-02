@@ -37,8 +37,7 @@ function About() {
               ABOUT US
             </p> */}
             <h1 className="text-large-display font-semibold text-left text-dark max-w-[830px] mt-[8px] mb-[24px]">
-              Our Mission is to Bring{" "}
-              <span className="text-primary-blue">Sleep</span> to{" "}
+              Bringing <span className="text-primary-blue">Sleep</span> to{" "}
               <span className="inline-block">New Mexico</span>
             </h1>
             <p className="text-paragraph font-regular text-left sm:text-left max-w-[640px] text-dark-grey">
