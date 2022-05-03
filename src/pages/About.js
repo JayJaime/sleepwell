@@ -238,7 +238,7 @@ function About() {
             <img
               className="object-fit"
               src="./assets/doctor-img.png"
-              alt="Sleeping people"
+              alt="Doctor Lilian Jaime"
             ></img>
           </div>
         </div>
