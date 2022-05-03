@@ -8,8 +8,8 @@ export default function ctaSection() {
   };
 
   return (
-    <div className="mt-[24px] w-full lg:h-[574px] bg-hero2 flex justify-center items-center min-h-[600px] relative">
-      <div className="w-full flex flex-col justify-center items-center gap-[24px] mb-[80px] lg:mb-[64px] mt-[48px] lg:mt-0">
+    <div className="mt-[24px] w-full lg:h-[700px] bg-hero2 flex justify-center items-center min-h-[700px] relative">
+      <div className="w-full flex flex-col justify-center items-center gap-[24px]">
         <div className="w-full flex flex-col justify-center items-center md:p-[32px]">
           <h1 className="lg-display-text font-semibold text-center text-white px-[24px]">
             Get The Sleep You Deserve
