@@ -30,7 +30,7 @@ function About() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Header Sec New */}
-      <div className="w-full flex flex-col justify-center items-center gap-[64px] pt-[48px] pb-[96px] lg:pt-[96px] lg:pb-[200px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px] bg-light-grey-blue relative overflow-hidden">
+      <div className="w-full flex flex-col justify-center items-center gap-[64px] pt-[48px] pb-[96px] md:pb-[140px] lg:pt-[96px] lg:pb-[200px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px] bg-light-grey-blue relative overflow-hidden">
         <div className="w-full flex flex-col md:flex-row justify-between items-center md:items-between max-w-[640px] md:max-w-[1280px]">
           <div className="w-full flex flex-col justify-center items-start">
             {/* <p className="text-[14px] md:text-[16px] font-bold text-left sm:text-left max-w-[640px] text-primary-blue tracking-widest">
@@ -148,7 +148,7 @@ function About() {
 
       {/* Sleep Well Description */}
       <div className="w-full h-auto bg-white py-[64px] lg:py-[120px] flex items-center justify-center px-[24px] md:px-[56px]">
-        <div className="max-w-[1280px] w-full flex flex-col md:flex-row-reverse items-center md:items-start justify-between gap-[40px]">
+        <div className="max-w-[1280px] w-full flex flex-col lg:flex-row-reverse items-center lg:items-start justify-between gap-[40px]">
           {/* text */}
           <div className="w-full max-w-[640px]">
             <h3 className="title-text font-semibold text-left text-dark">
@@ -177,7 +177,7 @@ function About() {
             </p>
           </div>
           {/* image */}
-          <div className="w-full max-w-[640px] md:max-w-[800px]">
+          <div className="w-full max-w-[500px] md:max-w-[500px] lg:max-w-[500px]">
             <img
               className="object-fill"
               src="./assets/old-sleeping.png"
@@ -212,7 +212,7 @@ function About() {
         <div className="w-full max-w-[1280px] flex flex-col lg:flex-row items-center gap-[40px] lg:gap-[40px] lg:items-center justify-center">
           <div className="w-full flex flex-col items-center lg:items-start justify-center">
             {/* title */}
-            <div className="w-full h-auto max-w-[640px] lg:max-w-[850px] pr-[16px] mb-[24px] lg:mb-[48px]">
+            <div className="w-full h-auto max-w-[640px] lg:max-w-[640px] pr-[16px] mb-[24px] lg:mb-[48px]">
               <h3 className="title-text font-semibold text-left text-dark">
                 Meet the Doctor
               </h3>
@@ -231,13 +231,12 @@ function About() {
                 patients.
               </p>
             </div>
-            <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] flex flex-col lg:flex-row items-start justify-between gap-[24px] lg:gap-[64px]"></div>
           </div>
           {/* image */}
-          <div className="lg:max-w-[450px] w-full max-w-[640px] rounded-xl overflow-hidden max-h-[510px] mt-[0px] lg:mt-[0px]">
+          <div className="lg:max-w-[500px] w-full max-w-[500px] rounded-xl overflow-hidden max-h-[500px] mt-[0px] lg:mt-[0px]">
             <img
               className="object-fit"
-              src="./assets/doctor-img.png"
+              src="./assets/doctor-image.png"
               alt="Doctor Lilian Jaime"
             ></img>
           </div>
