@@ -234,7 +234,7 @@ function About() {
             <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] flex flex-col lg:flex-row items-start justify-between gap-[24px] lg:gap-[64px]"></div>
           </div>
           {/* image */}
-          <div className="lg:max-w-[500px] w-full max-w-[640px] rounded-xl overflow-hidden max-h-[510px] mt-[0px] lg:mt-[0px]">
+          <div className="lg:max-w-[450px] w-full max-w-[640px] rounded-xl overflow-hidden max-h-[510px] mt-[0px] lg:mt-[0px]">
             <img
               className="object-fit"
               src="./assets/doctor-img.png"
