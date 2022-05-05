@@ -13,6 +13,7 @@ module.exports = {
       dark: "#27365A",
       "dark-grey": "#455A8D",
       "primary-blue-hover": "#4D5DED",
+      "dark-blue": "#2B3ABD",
     },
     backgroundImage: {
       "hero-pattern": "url('/public/assets/heroBg.svg')",

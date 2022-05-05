@@ -22,7 +22,7 @@ export default function Education() {
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Title */}
-      <div className="w-full max-w-[980px] flex flex-col items-center justify-center pt-[64px] lg:pt-[96px] m-[64px] lg:m-[96px] px-[24px] desktop:px-[0px] gap-[20px]">
+      {/* <div className="w-full max-w-[980px] flex flex-col items-center justify-center pt-[64px] lg:pt-[96px] m-[64px] lg:m-[96px] px-[24px] desktop:px-[0px] gap-[20px]">
         <h1 className="lg-display-text font-semibold text-center text-dark">
           Sleep Apnea Education
         </h1>
@@ -30,10 +30,10 @@ export default function Education() {
           A brief overview of sleep apnea and the serious dangers and risks
           associated with the disorder.
         </p>
-      </div>
+      </div> */}
 
       {/* What is Sleep Apnea Section */}
-      <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
+      <div className="bg-light-grey-blue w-full mt-[64px] lg:mt-[80px] py-[64px] pb-[140px] lg:pb-[180px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px] relative">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center lg:gap-[40px]">
           {/* video */}
           <div className="aspect-video overflow-hidden rounded-md max-w-[640px] w-full mt-[40px] lg:mt-[0px]">
@@ -50,7 +50,7 @@ export default function Education() {
           </div>
           {/* text section */}
           <div className="w-full max-w-[640px] h-full flex flex-col items-start justify-between gap-[24px]">
-            <h3 className="title-text font-semibold text-left text-dark">
+            <h3 className="lg-display-text font-semibold text-left text-dark">
               What is Sleep Apnea?
             </h3>
             <p className="text-paragraph text-dark-grey">
@@ -66,6 +66,20 @@ export default function Education() {
               learn more.
             </p>
           </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom-cost">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
         </div>
       </div>
 
@@ -143,59 +157,74 @@ export default function Education() {
       </div>
 
       {/* Signs or symptoms Section */}
-      <div className="w-full flex flex-col items-center justify-center py-[64px] lg:py-[96px] px-[24px] md:px-[56px] gap-[64px] bg-white">
-        {/* title */}
-        <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] pr-[16px] flex flex-col items-center justify-center">
-          <h3 className="title-text font-semibold text-center text-dark">
-            Signs You May Have Sleep Apnea
-          </h3>
-          <p className="text-paragraph text-center mt-[20px] text-dark-grey max-w-[740px]">
-            Sleep apnea can negatively impact daily life. Those with obstructive
-            sleep apnea may experience the following symptoms.
-          </p>
-        </div>
-        {/* checklist */}
-        <div className="w-full max-w-[1280px] flex flex-col-reverse md:flex-row items-center justify-center gap-[40px]">
-          <div className="w-full max-w-[640px] lg:max-w-full flex items-center justify-center gap-[20px] md:gap-[64px] flex-wrap sm:flex-nowrap">
-            <ul className="flex flex-col gap-[20px]">
-              <Checklist content="Loud snoring at night" />
-              <Checklist content="Insomnia with frequent awakenings" />
-              <Checklist content="Choking or gasping in your sleep" />
-              <Checklist content="Daytime sleepiness" />
-            </ul>
-            <ul className="flex flex-col gap-[20px]">
-              <Checklist content="Difficulty concentrating while awake" />
-              <Checklist content="Changes in mood" />
-              <Checklist content="Restlessness during sleep" />
-              <Checklist content="Vivid or threatening dreams" />
-            </ul>
+      <div className="w-full flex items-center justify-center px-[24px] md:px-[56px]">
+        <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start justify-between w-full max-w-[640px] lg:max-w-[1280px]">
+          <div className="max-w-[640px] w-full flex flex-col items-start justify-center py-[64px] lg:py-[96px] gap-[64px] bg-white">
+            {/* title */}
+            <div className="w-full h-auto max-w-[640px] pr-[16px] flex flex-col items-start justify-center">
+              <h3 className="title-text font-semibold text-left text-dark">
+                Signs You May Have{" "}
+                <span className="inline-block">Sleep Apnea</span>
+              </h3>
+              <p className="text-paragraph text-left mt-[20px] text-dark-grey max-w-[640px]">
+                Sleep apnea can negatively impact daily life. Those with
+                obstructive sleep apnea may experience the following symptoms.
+              </p>
+            </div>
+            {/* checklist */}
+            <div className="w-full max-w-[640px] flex flex-col-reverse md:flex-row items-center justify-center gap-[40px]">
+              <div className="w-full max-w-[640px] lg:max-w-full flex items-center justify-start gap-[20px] md:gap-[64px] flex-wrap sm:flex-nowrap">
+                <ul className="flex flex-col gap-[20px]">
+                  <Checklist content="Loud snoring at night" />
+                  <Checklist content="Insomnia with frequent awakenings" />
+                  <Checklist content="Choking or gasping in your sleep" />
+                  <Checklist content="Daytime sleepiness" />
+                </ul>
+                <ul className="flex flex-col gap-[20px]">
+                  <Checklist content="Difficulty concentrating while awake" />
+                  <Checklist content="Changes in mood" />
+                  <Checklist content="Restlessness during sleep" />
+                  <Checklist content="Vivid or threatening dreams" />
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* image */}
+          <div className="overflow-hidden rounded-md max-w-[600px] w-full mt-[0px] lg:mt-[80px] px-[0px] md:px-[24px]">
+            <img
+              className="object-fill"
+              src="./assets/signs.png"
+              alt="man snoring loudly in bed"
+            ></img>
           </div>
         </div>
       </div>
 
       {/* Risks Section */}
-      <div className="w-full flex justify-center items-center py-[64px] lg:py-[96px]">
-        <div className="bg-light-grey-blue w-full max-w-[1280px] flex flex-col lg:flex-row items-center justify-center py-[48px] md:py-[56px] px-[24px] md:px-[56px] desktop:rounded-md gap-[64px]">
-          {/* title */}
-          <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] pr-[16px]">
-            <h3 className="title-text font-semibold text-left text-dark">
-              Risks of Untreated{" "}
-              <span className="inline-block">Sleep Apnea</span>
-            </h3>
-            <p className="text-paragraph text-dark-grey max-w-[640px] mt-[20px]">
-              Sleep apnea is a common sleep disorder that can be fairly
-              dangerous if left untreated. It is often linked with increasing
-              the risk of other serious conditions such as cardiovascular
-              disease and diabetes, as well as increasing the risk of being
-              involved in potentially life threatening automobile accidents due
-              to sleep deprivation. If you believe you have sleep apnea, contact
-              your doctor as soon as possible.
-            </p>
-          </div>
-          {/* checklist */}
-          <div className="w-full max-w-[1280px] flex flex-col-reverse md:flex-row items-center justify-center gap-[40px]">
-            <div className="w-full max-w-[640px] lg:max-w-full flex items-center justify-between gap-[20px] md:gap-[64px] flex-wrap sm:flex-nowrap">
-              {/* <p className="text-paragraph text-dark-grey max-w-[640px]">
+      <div className="w-full flex items-center justify-center px-[24px] md:px-[56px]">
+        <div className="w-full flex justify-center items-center py-[64px] lg:py-[96px]">
+          <div className="w-full flex flex-col lg:flex-row justify-between items-center max-w-[1280px]">
+            <div className="w-full max-w-[640px] flex flex-col lg:flex-col items-center justify-center py-[48px] md:py-[56px] desktop:rounded-md gap-[64px]">
+              {/* title */}
+              <div className="w-full h-auto max-w-[640px]">
+                <h3 className="title-text font-semibold text-left text-dark">
+                  Risks of Untreated{" "}
+                  <span className="inline-block">Sleep Apnea</span>
+                </h3>
+                <p className="text-paragraph text-dark-grey max-w-[640px] mt-[20px]">
+                  Sleep apnea is a common sleep disorder that can be fairly
+                  dangerous if left untreated. It is often linked with
+                  increasing the risk of other serious conditions such as
+                  cardiovascular disease and diabetes, as well as increasing the
+                  risk of being involved in potentially life threatening
+                  automobile accidents due to sleep deprivation. If you believe
+                  you have sleep apnea, contact your doctor as soon as possible.
+                </p>
+              </div>
+              {/* checklist */}
+              <div className="w-full max-w-[1280px] flex flex-col-reverse md:flex-row items-center justify-center gap-[40px]">
+                <div className="w-full max-w-[640px] lg:max-w-full flex items-center justify-between gap-[20px] md:gap-[64px] flex-wrap sm:flex-nowrap">
+                  {/* <p className="text-paragraph text-dark-grey max-w-[640px]">
               Sleep apnea is a common sleep disorder that can be fairly
               dangerous if left untreated. It is often linked with increasing
               the risk of other serious conditions such as cardiovascular
@@ -204,31 +233,44 @@ export default function Education() {
               to sleep deprivation. If you believe you have sleep apnea, contact
               your doctor as soon as possible.
             </p> */}
-              <ul className="flex flex-col gap-[20px]">
-                <Checklist content="Daytime fatigue" />
-                <Checklist content="High blood pressure" />
-                <Checklist content="Heart attack" />
-                <Checklist content="Cardiovascular disease " />
-                <Checklist content="Diabetes" />
-                <Checklist content="Workplace accidents" />
-                <Checklist content="Automobile accidents" />
-                <Checklist content="Stroke" />
-              </ul>
-              {/* <ul className="flex flex-col gap-[20px]">
+                  <ul className="flex flex-col gap-[20px]">
+                    <Checklist content="Daytime fatigue" />
+                    <Checklist content="High blood pressure" />
+                    <Checklist content="Heart attack" />
+                    <Checklist content="Cardiovascular disease " />
+                  </ul>
+                  <ul className="flex flex-col gap-[20px]">
+                    <Checklist content="Diabetes" />
+                    <Checklist content="Workplace accidents" />
+                    <Checklist content="Automobile accidents" />
+                    <Checklist content="Stroke" />
+                  </ul>
+                  {/* <ul className="flex flex-col gap-[20px]">
             </ul> */}
+                </div>
+              </div>
+            </div>
+            {/* image */}
+            <div className="overflow-hidden rounded-md max-w-[500px] w-full mt-[0px] lg:mt-[0px] px-[24px]">
+              <img
+                className="object-fill"
+                src="./assets/risks.png"
+                alt="doctor checking on patients health"
+              ></img>
             </div>
           </div>
         </div>
       </div>
 
       {/* Treatment Options Section */}
-      <div className="w-full py-[64px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px]">
+      <div className="bg-light-grey-blue w-full py-[120px] lg:py-[180px] flex items-center justify-center px-[24px] md:px-[56px] relative">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row items-center justify-between lg:gap-[40px]">
           {/* image */}
           <div className="overflow-hidden rounded-md max-w-[500px] w-full mt-[40px] lg:mt-[0px]">
             <img
               className="object-fill"
               src="./assets/treatment-options.png"
+              alt="sleep apnea treatment options"
             ></img>
           </div>
           {/* text section */}
@@ -249,6 +291,34 @@ export default function Education() {
               appliance to alleviate your sleep apnea.
             </p>
           </div>
+        </div>
+
+        <div class="custom-shape-divider-top-cost">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+
+        <div class="custom-shape-divider-bottom-cost">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
         </div>
       </div>
 
