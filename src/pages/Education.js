@@ -87,7 +87,7 @@ export default function Education() {
             <ul className="w-full mt-[64px] flex flex-col lg:flex-row justify-center items-start gap-[48px] desktop:gap-[40px] ">
               {/* item 1 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
-                <div className="w-[48px] h-[48px] bg-white rounded-3xl flex justify-center items-center">
+                <div className="w-[48px] h-[48px] border border-2 border-light-blue rounded-3xl flex justify-center items-center">
                   <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
                     1
                   </h4>
@@ -105,7 +105,7 @@ export default function Education() {
               </li>
               {/* item 2 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
-                <div className="w-[48px] h-[48px] bg-white rounded-3xl flex justify-center items-center">
+                <div className="w-[48px] h-[48px] border border-2 border-light-blue rounded-3xl flex justify-center items-center">
                   <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
                     2
                   </h4>
@@ -122,7 +122,7 @@ export default function Education() {
               </li>
               {/* item 3 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
-                <div className="w-[48px] h-[48px] bg-white rounded-3xl flex justify-center items-center">
+                <div className="w-[48px] h-[48px] border border-2 border-light-blue rounded-3xl flex justify-center items-center">
                   <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
                     3
                   </h4>
