@@ -80,6 +80,7 @@ export default function ContactInfo() {
               </h4> */}
               <a
                 href="tel:+1 (505) 999-9628"
+                data-rel="external"
                 className="text-paragraph-sm text-light-blue text-left cursor-pointer sm:cursor-text underline underline-offset-4 sm:no-underline"
               >
                 +1 (505) 999-9628
