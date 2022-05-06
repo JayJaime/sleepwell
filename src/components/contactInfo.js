@@ -78,12 +78,12 @@ export default function ContactInfo() {
               {/* <h4 className="medium-title-text text-dark font-semibold text-left">
                 Call Us
               </h4> */}
-              <p
-                onClick={() => setCopiedText("+1 (505) 999-9628")}
-                className="text-paragraph-sm text-light-blue text-left cursor-pointer"
+              <a
+                href="tel:+1 (505) 999-9628"
+                className="text-paragraph-sm text-light-blue text-left cursor-pointer underline underline-offset-4"
               >
                 +1 (505) 999-9628
-              </p>
+              </a>
               <p className="text-paragraph-sm text-light-blue opacity-60 text-left">
                 Mon-Fri from 8am to 5pm.
               </p>
