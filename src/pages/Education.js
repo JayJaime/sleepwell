@@ -268,7 +268,7 @@ export default function Education() {
             <div className="overflow-hidden rounded-md max-w-[500px] w-full mt-[0px] lg:mt-[0px] px-[24px]">
               <img
                 className="object-fill"
-                src="./assets/risks.png"
+                src="./assets/risksOfUntreatedSleepApnea.png"
                 alt="doctor checking on patients health"
               ></img>
             </div>
