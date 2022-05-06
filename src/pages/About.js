@@ -337,12 +337,12 @@ function About() {
                   <p className="text-paragraph-sm text-dark-grey text-center">
                     Our friendly team is here to help.
                   </p>
-                  <p
-                    onClick={() => setCopiedText("info@sleepwellnewmexico.com")}
-                    className="text-paragraph-sm text-primary-blue text-center cursor-pointer"
+                  <a
+                    href="mailto:info@sleepwellnewmexico.com"
+                    className="text-paragraph-sm underline text-primary-blue text-center cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                   >
                     info@sleepwellnewmexico.com
-                  </p>
+                  </a>
                 </div>
               </li>
               <li className="flex flex-col items-center justify-center gap-[20px] w-full max-w-[450px]">
@@ -354,17 +354,16 @@ function About() {
                   <p className="text-paragraph-sm text-dark-grey text-center">
                     Come say hello at our office HQ.
                   </p>
-                  <p
-                    onClick={() =>
-                      setCopiedText(
-                        "10411 Lagrima De Oro Rd Albuquerque, NM 87111"
-                      )
-                    }
-                    className="text-paragraph-sm text-primary-blue text-center cursor-pointer"
+                  <a
+                    href="https://goo.gl/maps/aaZSm75mQpSGHgip8"
+                    target="_blank"
+                    className="text-paragraph-sm text-primary-blue text-center cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                   >
                     10411 Lagrima De Oro Rd{" "}
-                    <span className="inline-block">Albuquerque, NM 87111</span>
-                  </p>
+                    <span className="inline-block underline underline-offset-4 sm:no-underline sm:hover:underline">
+                      Albuquerque, NM 87111
+                    </span>
+                  </a>
                 </div>
               </li>
               <li className="flex flex-col items-center justify-center gap-[20px] w-full max-w-[450px]">
@@ -378,7 +377,7 @@ function About() {
                   </p>
                   <a
                     href="tel:+1 (505) 999-9628"
-                    className="text-paragraph-sm text-primary-blue text-center cursor-pointer sm:cursor-text underline underline-offset-4 sm:no-underline"
+                    className="text-paragraph-sm text-primary-blue text-center cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                   >
                     +1 (505) 999-9628
                   </a>

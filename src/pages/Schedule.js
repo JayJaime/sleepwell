@@ -50,12 +50,12 @@ function Schedule() {
                 <p className="text-[18px] text-dark-grey text-left">
                   Our team is here to help.
                 </p>
-                <p
-                  onClick={() => setCopiedText("info@sleepwellnewmexico.com")}
-                  className="text-[18px] text-primary-blue text-left cursor-pointer"
+                <a
+                  href="mailto:info@sleepwellnewmexico.com"
+                  className="text-[18px] text-primary-blue text-left cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                 >
                   info@sleepwellnewmexico.com
-                </p>
+                </a>
               </div>
             </li>
             <li className="flex flex-row items-start justify-start gap-[20px] w-full max-w-[450px]">
@@ -71,16 +71,13 @@ function Schedule() {
                 <p className="text-[18px] text-dark-grey text-left">
                   Come meet our incredible staff.
                 </p>
-                <p
-                  onClick={() =>
-                    setCopiedText(
-                      "10411 Lagrima De Oro Rd Albuquerque, NM 87111"
-                    )
-                  }
-                  className="text-[18px] text-primary-blue text-left max-w-[225px] cursor-pointer"
+                <a
+                  href="https://goo.gl/maps/aaZSm75mQpSGHgip8"
+                  target="_blank"
+                  className="text-[18px] text-primary-blue text-left max-w-[225px] cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                 >
                   10411 Lagrima De Oro Rd Albuquerque, NM 87111
-                </p>
+                </a>
               </div>
             </li>
             <li className="flex flex-row items-start justify-start gap-[20px] w-full max-w-[450px]">
@@ -98,7 +95,7 @@ function Schedule() {
                 </p>
                 <a
                   href="tel:+1 (505) 999-9628"
-                  className="text-[18px] text-primary-blue text-left cursor-pointer sm:cursor-text underline underline-offset-4 sm:no-underline"
+                  className="text-[18px] text-primary-blue text-left cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                 >
                   +1 (505) 999-9628
                 </a>

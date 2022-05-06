@@ -30,12 +30,12 @@ export default function ContactInfo() {
               {/* <h4 className="medium-title-text text-dark font-semibold text-left">
                 Email Us
               </h4> */}
-              <p
-                onClick={() => setCopiedText("info@sleepwellnewmexico.com")}
-                className="text-paragraph-sm text-light-blue text-left cursor-pointer"
+              <a
+                href="mailto:info@sleepwellnewmexico.com"
+                className="text-paragraph-sm text-light-blue text-left cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
               >
                 info@sleepwellnewmexico.com
-              </p>
+              </a>
               <p className="text-paragraph-sm text-light-blue opacity-60 text-left">
                 Our team is here to help.
               </p>
@@ -53,14 +53,13 @@ export default function ContactInfo() {
               {/* <h4 className="medium-title-text text-dark font-semibold text-left">
                 Visit Us
               </h4> */}
-              <p
-                onClick={() =>
-                  setCopiedText("10411 Lagrima De Oro Rd Albuquerque, NM 87111")
-                }
-                className="text-paragraph-sm text-light-blue text-left cursor-pointer"
+              <a
+                href="https://goo.gl/maps/aaZSm75mQpSGHgip8"
+                target="_blank"
+                className="text-paragraph-sm text-light-blue text-left cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
               >
                 10411 Lagrima De Oro Rd
-              </p>
+              </a>
               <p className="text-paragraph-sm text-light-blue opacity-60 text-left max-w-[225px]">
                 Albuquerque, NM 87111
               </p>
@@ -80,8 +79,7 @@ export default function ContactInfo() {
               </h4> */}
               <a
                 href="tel:+1 (505) 999-9628"
-                data-rel="external"
-                className="text-paragraph-sm text-light-blue text-left cursor-pointer sm:cursor-text underline underline-offset-4 sm:no-underline"
+                className="text-paragraph-sm text-light-blue text-left cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
               >
                 +1 (505) 999-9628
               </a>
