@@ -96,12 +96,12 @@ function Schedule() {
                 <p className="text-[18px] text-dark-grey text-left">
                   Mon-Fri from 8am to 5pm.
                 </p>
-                <p
-                  onClick={() => setCopiedText("+1 (505) 999-9628")}
-                  className="text-[18px] text-primary-blue text-left cursor-pointer"
+                <a
+                  href="tel:+1 (505) 999-9628"
+                  className="text-[18px] text-primary-blue text-left cursor-pointer sm:cursor-text underline underline-offset-4 sm:no-underline"
                 >
                   +1 (505) 999-9628
-                </p>
+                </a>
               </div>
             </li>
           </ul>
