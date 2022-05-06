@@ -173,7 +173,7 @@ export default function Education() {
       {/* Signs or symptoms Section */}
       <div className="w-full flex items-center justify-center px-[24px] md:px-[56px]">
         <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start justify-between w-full max-w-[640px] lg:max-w-[1280px]">
-          <div className="max-w-[640px] w-full flex flex-col items-start justify-center py-[64px] lg:py-[96px] gap-[64px] bg-white">
+          <div className="max-w-[640px] w-full flex flex-col items-start justify-center py-[64px] lg:py-[64px] gap-[64px] bg-white">
             {/* title */}
             <div className="w-full h-auto max-w-[640px] pr-[16px] flex flex-col items-start justify-center">
               <h3 className="title-text font-semibold text-left text-dark">
@@ -216,7 +216,7 @@ export default function Education() {
 
       {/* Risks Section */}
       <div className="w-full flex items-center justify-center px-[24px] md:px-[56px]">
-        <div className="w-full flex justify-center items-center py-[64px] lg:py-[96px]">
+        <div className="w-full flex justify-center items-center py-[64px] lg:py-[64px]">
           <div className="w-full flex flex-col lg:flex-row justify-between items-center max-w-[1280px]">
             <div className="w-full max-w-[640px] flex flex-col lg:flex-col items-center justify-center py-[48px] md:py-[56px] desktop:rounded-md gap-[64px]">
               {/* title */}
