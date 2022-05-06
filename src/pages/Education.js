@@ -33,7 +33,7 @@ export default function Education() {
       </div> */}
 
       {/* What is Sleep Apnea Section */}
-      <div className="bg-light-grey-blue w-full mt-[64px] lg:mt-[80px] py-[64px] pb-[140px] lg:pb-[180px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px] relative">
+      <div className="w-full mt-[64px] lg:mt-[80px] py-[64px] pb-[64px] lg:pb-[96px] lg:py-[96px] flex items-center justify-center px-[24px] md:px-[56px] relative">
         <div className="max-w-[1280px] w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center lg:gap-[40px]">
           {/* video */}
           <div className="aspect-video overflow-hidden rounded-md max-w-[640px] w-full mt-[40px] lg:mt-[0px]">
@@ -67,24 +67,10 @@ export default function Education() {
             </p>
           </div>
         </div>
-
-        <div class="custom-shape-divider-bottom-cost">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-              class="shape-fill"
-            ></path>
-          </svg>
-        </div>
       </div>
 
       {/* Types of SLeep Apnea */}
-      <div className="mt-[0px] w-full h-auto bg-white py-[64px] lg:py-[96px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center">
+      <div className="bg-light-grey-blue mt-[0px] w-full h-auto bg-white py-[140px] lg:py-[180px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center relative">
         <div className="w-full max-w-[1280px] flex flex-col items-center justify-center">
           {/* title */}
           <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] pr-[16px] flex flex-col items-center justify-center">
@@ -101,8 +87,8 @@ export default function Education() {
             <ul className="w-full mt-[64px] flex flex-col lg:flex-row justify-center items-start gap-[48px] desktop:gap-[40px] ">
               {/* item 1 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
-                <div className="w-[48px] h-[48px] bg-light-grey-blue rounded-3xl flex justify-center items-center">
-                  <h4 className="text-primary-blue font-semibold text-[18px] sm:text-[20px]">
+                <div className="w-[48px] h-[48px] bg-white rounded-3xl flex justify-center items-center">
+                  <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
                     1
                   </h4>
                 </div>
@@ -119,8 +105,8 @@ export default function Education() {
               </li>
               {/* item 2 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
-                <div className="w-[48px] h-[48px] bg-light-grey-blue rounded-3xl flex justify-center items-center">
-                  <h4 className="text-primary-blue font-semibold text-[18px] sm:text-[20px]">
+                <div className="w-[48px] h-[48px] bg-white rounded-3xl flex justify-center items-center">
+                  <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
                     2
                   </h4>
                 </div>
@@ -136,8 +122,8 @@ export default function Education() {
               </li>
               {/* item 3 */}
               <li className="flex flex-col justify-center items-center gap-[20px] w-full lg:max-w-[400px]">
-                <div className="w-[48px] h-[48px] bg-light-grey-blue rounded-3xl flex justify-center items-center">
-                  <h4 className="text-primary-blue font-semibold text-[18px] sm:text-[20px]">
+                <div className="w-[48px] h-[48px] bg-white rounded-3xl flex justify-center items-center">
+                  <h4 className="text-primary-blue font-bold text-[18px] sm:text-[20px]">
                     3
                   </h4>
                 </div>
@@ -153,6 +139,34 @@ export default function Education() {
               </li>
             </ul>
           </div>
+        </div>
+
+        <div class="custom-shape-divider-top-cost">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+
+        <div class="custom-shape-divider-bottom-cost">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
         </div>
       </div>
 
