@@ -54,7 +54,7 @@ export default function ContactInfo() {
                 Visit Us
               </h4> */}
               <a
-                href="https://goo.gl/maps/aaZSm75mQpSGHgip8"
+                href="https://goo.gl/maps/tNgktN2fzX3DTt7m7"
                 target="_blank"
                 className="text-paragraph-sm text-light-blue text-left cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
               >
