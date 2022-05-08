@@ -72,7 +72,7 @@ function Schedule() {
                   Come meet our incredible staff.
                 </p>
                 <a
-                  href="https://goo.gl/maps/aaZSm75mQpSGHgip8"
+                  href="https://goo.gl/maps/tNgktN2fzX3DTt7m7"
                   target="_blank"
                   className="text-[18px] text-primary-blue text-left max-w-[225px] cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                 >

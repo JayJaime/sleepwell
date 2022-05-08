@@ -355,7 +355,7 @@ function About() {
                     Come say hello at our office HQ.
                   </p>
                   <a
-                    href="https://goo.gl/maps/aaZSm75mQpSGHgip8"
+                    href="https://goo.gl/maps/tNgktN2fzX3DTt7m7"
                     target="_blank"
                     className="text-paragraph-sm text-primary-blue text-center cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                   >
