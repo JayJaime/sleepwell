@@ -11,7 +11,7 @@ module.exports = {
       "light-grey-border": "#D0D5DD",
       "light-blue": "#C9DBFE",
       dark: "#27365A",
-      "dark-grey": "#455A8D",
+      "dark-grey": "#40517B",
       "primary-blue-hover": "#4D5DED",
       "dark-blue": "#2B3ABD",
     },
