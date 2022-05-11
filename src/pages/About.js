@@ -168,10 +168,10 @@ function About() {
               But it didn't have to be that way, and here at Sleep Well we
               sought to provide an alternative to CPAP so that people wouldn't
               have to choose between an uncomfortable night using a mask and
-              hose, or no sleep at all. By utilizing oral appliance therapy
-              (OSA), our patients have finally been able to get the sleep of
-              their dreams, without the discomfort or pain associated with CPAP.
-              Our custom-fitted appliances fit like a retainer and push the jaw
+              hose, or no sleep at all. By utilizing oral appliance therapy, our
+              patients have finally been able to get the sleep of their dreams,
+              without the discomfort or pain associated with CPAP. Our
+              custom-fitted appliances fit like a retainer and push the jaw
               forward, ensuring your airway stays open throughout the night so
               you can wake up in the morning energetic and well rested.
             </p>

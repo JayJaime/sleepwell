@@ -76,11 +76,11 @@ function Home() {
         <div className="flex flex-col md:flex-row justify-center items-start max-w-[640px] md:max-w-[1280px]">
           <div className="w-full flex flex-col justify-center items-start">
             <p className="text-[14px] md:text-[16px] font-bold text-left sm:text-left max-w-[640px] text-primary-blue tracking-widest">
-              SLEEP BETTER, BREATHE EASIER
+              NO MASK. NO SURGERY. ONLY SLEEP.
             </p>
             <h1 className="text-large-display font-semibold text-left text-dark max-w-[830px] mt-[8px] mb-[24px]">
               Say Goodbye to Your Mask & Hello to{" "}
-              <span className="text-primary-blue">Sleep Well!</span>
+              <span className="text-primary-blue">Better Sleep!</span>
             </h1>
             <p className="text-paragraph font-regular text-left sm:text-left max-w-[640px] text-dark-grey">
               We provide a simple, and efficient treatment option for
