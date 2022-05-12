@@ -12,7 +12,7 @@ import Nav from "./components/Navigation";
 import "./App.css";
 const MEASUREMENT_ID = "G-MS39CCGTTQ"; // OUR_TRACKING_ID
 
-ReactGA.initialize(TRACKING_ID);
+ReactGA.initialize(MEASUREMENT_ID);
 
 function App() {
   useLayoutEffect(() => {
