@@ -1,14 +1,11 @@
 import React, { useState, useEffect, useLayoutEffect } from "react";
 import Mailer from "../components/mailer";
 import Footer from "../components/footer";
+import useAnalyticsEventTracker from "../components/useAnalyticsEventTracker";
 import Swal from "sweetalert2";
 
 function Schedule() {
-  // useLayoutEffect(() => {
-  //   window.scrollTo(0, 0);
-  // });
-
-  const [copiedText, setCopiedText] = useState("");
+  const gaEventTracker = useAnalyticsEventTracker("Schedule");
 
   useEffect(() => {
     if (copiedText === "") {
@@ -51,6 +48,7 @@ function Schedule() {
                   Our team is here to help.
                 </p>
                 <a
+                  onClick={() => gaEventTracker("Email")}
                   href="mailto:info@sleepwellnewmexico.com"
                   className="text-[18px] text-primary-blue text-left cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                 >
@@ -72,6 +70,7 @@ function Schedule() {
                   Come meet our incredible staff.
                 </p>
                 <a
+                  onClick={() => gaEventTracker("Directions")}
                   href="https://goo.gl/maps/tNgktN2fzX3DTt7m7"
                   target="_blank"
                   className="text-[18px] text-primary-blue text-left max-w-[225px] cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
@@ -95,6 +94,7 @@ function Schedule() {
                 </p>
                 <a
                   href="tel:+1 (505) 999-9628"
+                  onClick={() => gaEventTracker("Call")}
                   className="text-[18px] text-primary-blue text-left cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                 >
                   +1 (505) 999-9628
