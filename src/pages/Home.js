@@ -76,7 +76,7 @@ function Home() {
         <div className="flex flex-col md:flex-row justify-center items-start max-w-[640px] md:max-w-[1280px]">
           <div className="w-full flex flex-col justify-center items-start">
             <p className="text-[14px] md:text-[16px] font-bold text-left sm:text-left max-w-[640px] text-primary-blue tracking-widest">
-              NO MASK. NO SURGERY. ONLY SLEEP.
+              BREATHE EASIER. SLEEP DEEPER.
             </p>
             <h1 className="text-large-display font-semibold text-left text-dark max-w-[830px] mt-[8px] mb-[24px]">
               Say Goodbye to Your Mask & Hello to{" "}
@@ -189,7 +189,7 @@ function Home() {
               Works
             </h3> */}
             <h3 className="title-text font-semibold text-left text-dark">
-              How Oral Appliance Therapy Works
+              What is Oral Appliance Therapy
             </h3>
             <p className="text-paragraph text-primary-blue font-semibold">
               Oral appliance therapy is an alternative to CPAP therapy that
