@@ -7,15 +7,6 @@ import Swal from "sweetalert2";
 function Schedule() {
   const gaEventTracker = useAnalyticsEventTracker("Schedule");
 
-  useEffect(() => {
-    if (copiedText === "") {
-      return;
-    } else {
-      navigator.clipboard.writeText(copiedText);
-      Swal.fire("Copied to Clipboard!");
-    }
-  }, [copiedText]);
-
   return (
     <div className="flex flex-col justify-center items-center">
       {/* Title */}
