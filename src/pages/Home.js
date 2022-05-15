@@ -83,7 +83,7 @@ function Home() {
             <p className="text-[14px] md:text-[16px] font-bold text-left sm:text-left max-w-[640px] text-primary-blue tracking-widest">
               BREATHE EASIER. SLEEP DEEPER.
             </p>
-            <h1 className="text-large-display font-semibold text-left text-dark max-w-[820px] mt-[8px] mb-[24px] z-10">
+            <h1 className="text-large-display font-semibold text-left text-dark max-w-[300px] video-sm:max-w-[820px] mt-[8px] mb-[24px] z-10">
               Say Goodbye to Your Mask & Hello to{" "}
               <span className="text-primary-blue">Better Sleep!</span>
             </h1>
