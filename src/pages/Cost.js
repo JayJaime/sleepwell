@@ -4,22 +4,12 @@ import ContactInfo from "../components/contactInfo";
 import Footer from "../components/footer";
 import Swal from "sweetalert2";
 import "./Home.css";
+import FinancingSection from "../components/careCreditPreQualify";
 
 function Cost() {
   // useLayoutEffect(() => {
   //   window.scrollTo(0, 0);
   // });
-
-  const [copiedText, setCopiedText] = useState("");
-
-  useEffect(() => {
-    if (copiedText === "") {
-      return;
-    } else {
-      navigator.clipboard.writeText(copiedText);
-      Swal.fire("Copied to Clipboard!");
-    }
-  }, [copiedText]);
 
   return (
     <div className="flex flex-col justify-center items-center">
@@ -54,7 +44,7 @@ function Cost() {
             </ul>
           </div>
           {/* image */}
-          <div className="w-full mt-[64px] lg:mt-[0px] md:max-w-[500px] overflow-hidden">
+          <div className="w-full mt-[40px] lg:mt-[0px] md:max-w-[500px] overflow-hidden">
             <img
               className=""
               src="./assets/man-using-cpap.png"
@@ -65,7 +55,7 @@ function Cost() {
       </div>
 
       {/* Cost Section */}
-      <div className="mt-[0px] w-full h-auto bg-light-grey-blue py-[116px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center relative">
+      <div className="mt-[0px] w-full h-auto bg-light-grey-blue py-[96px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center relative">
         <div className="w-full max-w-[1280px] flex flex-col lg:flex-row-reverse items-center gap-[0px] lg:gap-[40px] lg:items-center justify-center">
           <div className="w-full flex flex-col items-center lg:items-start justify-center">
             {/* title */}
@@ -83,7 +73,7 @@ function Cost() {
             <div className="w-full h-auto max-w-[640px] lg:max-w-[1280px] flex flex-col lg:flex-row items-start justify-between gap-[24px] lg:gap-[64px]"></div>
           </div>
           {/* image */}
-          <div className="lg:max-w-[500px] w-full max-w-[640px] rounded-xl overflow-hidden max-h-[510px] mt-[48px] lg:mt-[0px]">
+          <div className="lg:max-w-[500px] w-full max-w-[640px] rounded-xl overflow-hidden max-h-[510px] mt-[24px] lg:mt-[0px]">
             <img
               className="object-fit"
               src="./assets/holding-appliance.png"
@@ -121,9 +111,11 @@ function Cost() {
         </div>
       </div>
 
+      {/* <FinancingSection /> */}
+
       {/* Payments Section */}
       <div className="mt-[0px] w-full h-auto bg-white py-[64px] lg:py-[96px] px-[24px] lg:px-[56px] flex flex-col items-center justify-center">
-        <div className="w-full max-w-[1280px] flex flex-col lg:flex-row items-center gap-[0px] lg:gap-[40px] lg:items-center justify-center">
+        <div className="w-full max-w-[1280px] flex flex-col lg:flex-row items-center gap-[0px] lg:gap-[80px] lg:items-center justify-center">
           <div className="w-full flex flex-col items-center lg:items-start justify-center">
             {/* title */}
             <div className="w-full h-auto max-w-[640px] lg:max-w-[850px] pr-[16px] mb-[24px] lg:mb-[48px]">
@@ -152,7 +144,7 @@ function Cost() {
                         At Sleep Well New Mexico, we offer several payment plan
                         options to help you get the sleep you need with causing
                         any financial stress. We offer CareCredit to our
-                        patients, a health credit card that offers plenty of
+                        patients, a financing option that offers plenty of
                         benefits and is available to everybody, whether or not
                         you have insurance.
                       </p>
@@ -172,13 +164,13 @@ function Cost() {
                         debit card, or check. At Sleep Well New Mexico we ensure
                         its simple and easy for you to get treatment for your
                         sleep apnea. Call us at{" "}
-                        <span
-                          onClick={() => setCopiedText("+1 (505) 999-9628")}
-                          className="text-primary-blue cursor-pointer"
+                        <a
+                          href="tel:+1 (505) 999-9628"
+                          className="text-primary-blue cursor-pointer underline underline-offset-4 sm:no-underline sm:hover:underline"
                         >
                           (505) 999-9628
-                        </span>{" "}
-                        to learn more about our financial options.
+                        </a>{" "}
+                        to learn more about how we can finance your treatment.
                       </p>
                     </div>
                   </li>

@@ -6,8 +6,12 @@ import CtaSection from "../components/ctaSection";
 import ContactInfo from "../components/contactInfo";
 import Footer from "../components/footer";
 import "./Home.css";
+import FinancingSection from "../components/careCreditPreQualify";
+import useAnalyticsEventTracker from "../components/useAnalyticsEventTracker";
 
 function Home() {
+  const gaEventTracker = useAnalyticsEventTracker("Home");
+
   let videoPoster = document.getElementById("poster");
   console.log(videoPoster);
 
@@ -39,6 +43,7 @@ function Home() {
     video.classList.remove("hidden");
     // play video
     video.src += "&autoplay=1";
+    gaEventTracker("playVideo");
   };
 
   return (
@@ -165,7 +170,7 @@ function Home() {
               <img
                 className="absolute left-0 right-0 top-0 bottom-0 m-auto cursor-pointer"
                 src="./assets/play-icon.svg"
-                alt="icon"
+                alt="play button"
               ></img>
               <img src="./assets/CommercialBG.png" className="cursor-pointer" />
             </div>
@@ -189,7 +194,7 @@ function Home() {
               Works
             </h3> */}
             <h3 className="title-text font-semibold text-left text-dark">
-              What is Oral Appliance Therapy
+              A Custom Sleep Device For a More Restful Night
             </h3>
             <p className="text-paragraph text-primary-blue font-semibold">
               Oral appliance therapy is an alternative to CPAP therapy that

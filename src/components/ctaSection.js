@@ -11,10 +11,10 @@ export default function ctaSection() {
     <div className="mt-[24px] w-full lg:h-[700px] bg-hero2 flex justify-center items-center min-h-[700px] relative">
       <div className="w-full flex flex-col justify-center items-center gap-[24px]">
         <div className="w-full flex flex-col justify-center items-center md:p-[32px]">
-          <h1 className="lg-display-text font-semibold text-center text-white px-[24px]">
+          <h1 className="text-large-display font-semibold text-center text-white px-[24px]">
             Get The Sleep You Deserve
           </h1>
-          <p className="text-paragraph font-regular text-center sm:text-center max-w-[920px] text-light-blue p-[24px]">
+          <p className="text-paragraph font-regular text-center sm:text-center max-w-[920px] text-white opacity-80 p-[24px]">
             Meet with our team and see if oral appliance therapy is right for
             you.
           </p>

@@ -3,17 +3,6 @@ import "../pages/Home.css";
 import Swal from "sweetalert2";
 
 export default function ContactInfo() {
-  const [copiedText, setCopiedText] = useState("");
-
-  useEffect(() => {
-    if (copiedText === "") {
-      return;
-    } else {
-      navigator.clipboard.writeText(copiedText);
-      Swal.fire("Copied to Clipboard!");
-    }
-  }, [copiedText]);
-
   return (
     <div className="w-full flex flex-col items-center justify-center bg-darkest-blue px-[24px] py-[40px]">
       <div className="w-full max-w-[1280px]">
