@@ -14,7 +14,7 @@ export default function Navigation() {
   return (
     <div>
       {/* Web Navigation */}
-      <div className="desktop:block hidden px-4 md:px-[56px] py-4 w-full fixed top-0 left-0 z-10 bg-white shadow-sm">
+      <div className="desktop:block hidden px-4 md:px-[56px] py-4 w-full fixed top-0 left-0 z-50 bg-white shadow-sm">
         <div className="flex items-center justify-between max-w-screen-xl m-auto">
           {/* logo */}
           <ButtonLink to="/" className="logo-wrapper">
@@ -40,7 +40,7 @@ export default function Navigation() {
       </div>
 
       {/* Ipad Navigation */}
-      <div className="sm:block desktop:hidden hidden px-8 md:px-[56px] py-4 w-full fixed top-0 left-0 z-10 bg-white shadow-sm">
+      <div className="sm:block desktop:hidden hidden px-8 md:px-[56px] py-4 w-full fixed top-0 left-0 z-50 bg-white shadow-sm">
         <div className="flex items-center justify-between max-w-screen-xl m-auto">
           {/* logo */}
           <ButtonLink to="/" className="logo-wrapper">
@@ -69,7 +69,7 @@ export default function Navigation() {
       </div>
 
       {/* Mobile Navigation */}
-      <div className="sm:hidden block px-8 py-4 w-full fixed top-0 left-0 z-10 bg-white shadow-sm">
+      <div className="sm:hidden block px-8 py-4 w-full fixed top-0 left-0 z-50 bg-white shadow-sm">
         <div className="flex items-center justify-between max-w-screen-xl m-auto">
           {/* logo */}
           <ButtonLink to="/" className="logo-wrapper">

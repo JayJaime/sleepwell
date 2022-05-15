@@ -35,6 +35,7 @@ module.exports = {
       xl: "1290px",
       // so hero background image transitions well between common screen sizes
       "2xl": "1536px",
+      "3xl": "1800px",
     },
     extend: {},
   },

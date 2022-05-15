@@ -77,17 +77,17 @@ function Home() {
       </div> */}
 
       {/* New Hero Section */}
-      <div className="w-full flex flex-col justify-center items-center gap-[64px] pt-[64px] pb-[96px] lg:pt-[96px] lg:pb-[200px] mt-[64px] lg:mt-[64px] px-[24px] md:px-[56px] bg-light-grey-blue relative">
-        <div className="flex flex-col md:flex-row justify-center items-start max-w-[640px] md:max-w-[1280px]">
-          <div className="w-full flex flex-col justify-center items-start">
+      <div className="w-full flex flex-col justify-center items-center gap-[64px] pt-[64px] pb-[0px] video-md:pb-[96px] lg:pt-[96px] lg:pb-[300px] mt-[64px] lg:mt-[64px] px-[0px] md:px-[56px] bg-light-grey-blue relative overflow-hidden">
+        <div className="w-full flex flex-col lg:flex-row justify-center items-start">
+          <div className="w-full flex flex-col justify-start items-start max-w-[640px] md:max-w-[1280px] px-[24px] md:px-[0px]">
             <p className="text-[14px] md:text-[16px] font-bold text-left sm:text-left max-w-[640px] text-primary-blue tracking-widest">
               BREATHE EASIER. SLEEP DEEPER.
             </p>
-            <h1 className="text-large-display font-semibold text-left text-dark max-w-[830px] mt-[8px] mb-[24px]">
+            <h1 className="text-large-display font-semibold text-left text-dark max-w-[820px] mt-[8px] mb-[24px] z-10">
               Say Goodbye to Your Mask & Hello to{" "}
               <span className="text-primary-blue">Better Sleep!</span>
             </h1>
-            <p className="text-paragraph font-regular text-left sm:text-left max-w-[640px] text-dark-grey">
+            <p className="text-paragraph font-regular text-left sm:text-left max-w-[640px] text-dark-grey z-10">
               We provide a simple, and efficient treatment option for
               obstructive sleep apnea, with custom-made oral appliances that fit
               like a retainer and keep you sound asleep.
@@ -97,7 +97,7 @@ function Home() {
                 onClick={Reload}
                 to="/schedule"
                 type="button"
-                className="w-auto w-[310px] h-[62px] rounded-full transition ease-in-out pl-4 pr-4 pt-4 pb-4 bg-primary-blue text-white hover:bg-primary-blue-hover transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
+                className="w-full w-[310px] h-[62px] rounded-full transition ease-in-out pl-4 pr-4 pt-4 pb-4 bg-primary-blue text-white hover:bg-primary-blue-hover transition ease-in-out duration-300 active:scale-90 flex justify-center items-center"
               >
                 <h4 className=" text-[20px] font-bold text-center">
                   Request Free Consultation
@@ -106,16 +106,32 @@ function Home() {
             </div>
           </div>
           {/* image section */}
-          <div className="w-full rounded-xl overflow-hidden md:max-h-[500px] md:max-w-[500px] mt-[64px] md:mt-[0px]">
+          <div className="w-full hidden xl:block overflow-hidden  3xl:max-w-[1400px] md:max-w-[1100px] mt-[64px] md:mt-[0px] absolute right-[-500px]">
             <img
               className="object-fill"
-              src="./assets/HeroImageDesign.png"
+              src="./assets/hero-img-color.png"
+              alt="sleeping peacefully"
+            ></img>
+          </div>
+          {/* mid size image */}
+          <div className="w-full hidden max-w-[1000px] video-md:block xl:hidden rounded-xl mt-[64px] md:mt-[0px] ml-[0px] md:ml-[24px]">
+            <img
+              className="object-fill"
+              src="./assets/hero-img-color-md.png"
+              alt="sleeping peacefully"
+            ></img>
+          </div>
+          {/* mobile image section */}
+          <div className="w-full video-md:hidden overflow-hidden mt-[64px] mb-[0px] md:mt-[0px]">
+            <img
+              className="object-fill"
+              src="./assets/hero-img-color-mobile.png"
               alt="sleeping peacefully"
             ></img>
           </div>
         </div>
 
-        <div class="custom-shape-divider-bottom">
+        <div class="custom-shape-divider-bottom-arrow hidden xl:block">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +139,7 @@ function Home() {
             preserveAspectRatio="none"
           >
             <path
-              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z"
               class="shape-fill"
             ></path>
           </svg>
